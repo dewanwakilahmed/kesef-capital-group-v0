@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <div className='py-3 shadow fixed w-full z-50 backdrop-blur-lg hover:backdrop-blur-xl'>
+    <div className='py-3 shadow fixed w-full z-50 backdrop-blur-md hover:backdrop-blur-lg'>
       <Container>
         <div className='flex items-center justify-between'>
           <Image

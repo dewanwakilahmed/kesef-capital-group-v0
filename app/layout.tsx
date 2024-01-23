@@ -12,7 +12,7 @@ const inter = Montserrat({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Powerhouse Funding',
   description:
-    'Powerhouse Funding is a mortgage broker in the Greater Toronto Area.',
+    'Empowering small businesses with short-term financial solutions',
 };
 
 interface RootLayoutProps {
