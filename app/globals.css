@@ -75,8 +75,9 @@
   }
 }
 
-body {
+/* body {
   color: white;
+  background-color: black;
 }
 
 body::-webkit-scrollbar {
@@ -98,4 +99,4 @@ body::-webkit-scrollbar-thumb:hover {
 body {
   scrollbar-width: thin;
   scrollbar-color: #555 #999;
-}
+} */

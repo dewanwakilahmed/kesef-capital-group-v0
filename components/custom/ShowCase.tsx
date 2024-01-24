@@ -1,5 +1,6 @@
 import { Container } from './Container';
 import ShowCaseCard from './ShowCaseCard';
+import Image from 'next/image';
 
 const showCasePoints = [
   {
@@ -24,21 +25,32 @@ const showCasePoints = [
 
 const ShowCase = () => {
   return (
-    <div className='bg-slate-400 py-10'>
-      <Container>
-        <h2 className='text-black text-center font-semibold mb-6 text-3xl'>
-          Why Choose Us
-        </h2>
-        <div className='text-black grid grid-cols-3 gap-7'>
-          {showCasePoints.map((point) => (
-            <ShowCaseCard
-              key={point.id}
-              title={point.title}
-              description={point.description}
-            />
-          ))}
-        </div>
-      </Container>
+    <div className='py-10 relative w-full h-full flex flex-col items-center justify-center'>
+      <div className='absolute w-full h-full bg-black opacity-80 z-10'></div>
+      <Image
+        src='/images/trust.jpg'
+        alt='trust'
+        layout='fill'
+        objectFit='cover'
+        className='opacity-100'
+      />
+
+      <div className='z-20'>
+        <Container>
+          <h2 className='text-center font-semibold mb-6 text-3xl'>
+            Why Choose Us
+          </h2>
+          <div className='text-black grid grid-cols-3 gap-7'>
+            {showCasePoints.map((point) => (
+              <ShowCaseCard
+                key={point.id}
+                title={point.title}
+                description={point.description}
+              />
+            ))}
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };

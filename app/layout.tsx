@@ -2,8 +2,10 @@ import { ReactNode, FC } from 'react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 
-import './globals.css';
+// Globals CSS
+import '@/app/globals.css';
 
+// Custom Components
 import Navbar from '@/components/custom/Navbar';
 import Footer from '@/components/custom/Footer';
 
@@ -23,9 +25,9 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );

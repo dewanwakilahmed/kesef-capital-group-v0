@@ -16,10 +16,10 @@ interface ShowCaseCardProps {
 
 const ShowCaseCard: FC<ShowCaseCardProps> = ({ title, description }) => {
   return (
-    <Card>
+    <Card className='bg-transparent backdrop-blur-md hover:scale-105 transition'>
       <CardHeader className='flex flex-col gap-3'>
-        <CardTitle className='text-center'>{title}</CardTitle>
-        <CardDescription className='text-justify'>
+        <CardTitle className='text-center text-white'>{title}</CardTitle>
+        <CardDescription className='text-justify text-gray-300'>
           {description}
         </CardDescription>
       </CardHeader>
