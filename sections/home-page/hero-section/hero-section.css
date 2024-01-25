@@ -1,5 +1,16 @@
 .hero-section {
   @apply bg-home-hero 
   bg-cover 
-  h-screen;
+  h-screen
+  relative;
+}
+
+.home-hero-img-overlay {
+  @apply bg-overlay
+  absolute
+  inset-0;
+}
+
+.hero-section-content {
+  @apply relative;
 }
