@@ -12,5 +12,28 @@
 }
 
 .hero-section-content {
-  @apply relative;
+  @apply relative
+  h-full
+  flex
+  flex-col
+  gap-5
+  items-center
+  justify-center;
+}
+
+.hero-section-headline {
+  @apply text-blue-500
+  text-4xl 
+  font-semibold;
+}
+
+.hero-section-subheadline {
+  @apply text-center 
+  w-2/3 
+  text-xl 
+  font-extralight;
+}
+
+.hero-section-cta {
+  @apply mt-5;
 }
