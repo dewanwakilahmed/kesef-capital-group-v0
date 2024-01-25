@@ -1,3 +1,5 @@
 .hero-section {
-  background-color: lightblue;
+  @apply bg-home-hero 
+  bg-cover 
+  h-screen;
 }

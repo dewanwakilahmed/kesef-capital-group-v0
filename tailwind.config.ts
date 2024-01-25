@@ -72,6 +72,16 @@ const config = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      backgroundImage: {
+        'home-hero': "url('/images/ny-business-district.jpg')",
+      },
+      objectFit: {
+        fill: 'fill',
+        contain: 'contain',
+        cover: 'cover',
+        none: 'none',
+        'scale-down': 'scale-down',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
