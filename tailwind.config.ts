@@ -82,6 +82,9 @@ const config = {
         none: 'none',
         'scale-down': 'scale-down',
       },
+      backgroundColor: {
+        overlay: 'rgba(0, 0, 0, 0.75)',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
