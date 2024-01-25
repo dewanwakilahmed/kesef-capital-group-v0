@@ -23,6 +23,7 @@
 
 .hero-section-headline {
   @apply text-blue-500
+  text-center
   text-4xl 
   font-semibold;
 }
