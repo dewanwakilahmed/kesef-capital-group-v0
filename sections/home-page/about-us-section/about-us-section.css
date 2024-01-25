@@ -1,3 +1,39 @@
 .about-us-section {
-  @apply bg-yellow-200;
+  @apply py-10
+  flex
+  flex-col
+  gap-10
+  items-center
+  justify-center
+  bg-gradient-to-tr from-neutral-900 to-neutral-700;
+}
+
+.about-us-section-title {
+  @apply text-3xl;
+}
+
+.about-us-section-content {
+  @apply w-2/3
+  flex
+  gap-16
+  items-center
+  justify-center;
+}
+
+.company-story-container,
+.company-mission-statement-container {
+  @apply flex
+  flex-col
+  items-center
+  justify-between
+  gap-5;
+}
+
+.about-us-section-img {
+  @apply rounded-md;
+}
+
+.company-story,
+.company-mission-statement {
+  @apply text-justify text-sm font-light;
 }
