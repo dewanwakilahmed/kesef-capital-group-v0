@@ -2,7 +2,7 @@ import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 
-import '@/app/global.css';
+import '@/app/globals.css';
 
 import HeaderSection from '@/sections/header-section/HeaderSection';
 import FooterSection from '@/sections/footer-section/FooterSection';
