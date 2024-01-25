@@ -4,6 +4,9 @@ import { Montserrat } from 'next/font/google';
 
 import './globals.css';
 
+import HeaderSection from '@/sections/header-section/HeaderSection';
+import FooterSection from '@/sections/footer-section/FooterSection';
+
 const customFont = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -19,7 +22,11 @@ interface RootLayoutProps {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
-      <body className={customFont.className}>{children}</body>
+      <body className={customFont.className}>
+        <HeaderSection />
+        <main>{children}</main>
+        <FooterSection />
+      </body>
     </html>
   );
 };
