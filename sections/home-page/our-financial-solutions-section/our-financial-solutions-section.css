@@ -13,8 +13,29 @@
 
 .our-financial-solutions-section-content {
   @apply grid
-  grid-cols-2
+  grid-cols-3
   gap-16
   items-center
   justify-center;
+}
+
+.financial-solution-card {
+  @apply bg-gray-100/75 p-6 rounded-md;
+  @apply backdrop-blur-md;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.solution-title {
+  @apply text-xl font-semibold mb-4 text-black;
+}
+
+.solution-description {
+  @apply text-gray-700;
+}
+
+.learn-more-link {
+  @apply text-blue-500 hover:underline;
 }
