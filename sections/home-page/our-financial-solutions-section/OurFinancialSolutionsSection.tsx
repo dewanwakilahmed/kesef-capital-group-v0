@@ -1,4 +1,11 @@
-import '@/sections/home-page/our-financial-solutions-section/our-financial-solutions-section.css';
+'use client';
+
+import Link from 'next/link';
+
+// CSS Import
+import './our-financial-solutions-section.css';
+
+// Icon Imports
 import {
   FaMoneyBillWave,
   FaHandHoldingUsd,
@@ -13,42 +20,42 @@ const financialSolutions = [
     title: 'Merchant Cash Advance',
     description:
       'Unlock immediate capital based on your credit card sales, with flexible repayment.',
-    link: '/merchant-cash-advance',
+    link: '/financial-solutions/merchant-cash-advance',
     icon: <FaMoneyBillWave size={35} />,
   },
   {
     title: 'Term Loan',
     description:
       'Secure a lump sum for your business with fixed repayments over a specified term.',
-    link: '/term-loan',
+    link: '/financial-solutions/term-loan',
     icon: <FaHandHoldingUsd size={35} />,
   },
   {
     title: 'Line of Credit',
     description:
       'Flexible financing with access to funds up to a predetermined credit limit.',
-    link: '/line-of-credit',
+    link: '/financial-solutions/line-of-credit',
     icon: <FaCreditCard size={35} />,
   },
   {
     title: 'Asset Based Lending',
     description:
       'Leverage your business assets to secure a flexible and tailored financing solution.',
-    link: '/asset-based-lending',
+    link: '/financial-solutions/asset-based-lending',
     icon: <FaCoins size={35} />,
   },
   {
     title: 'Equipment Financing',
     description:
       'Acquire the equipment your business needs with financing options customized for you.',
-    link: '/equipment-financing',
+    link: '/financial-solutions/equipment-financing',
     icon: <FaTools size={35} />,
   },
   {
     title: 'Bad Credit Lending',
     description:
       'Overcome credit challenges and access the funding your business requires to thrive.',
-    link: '/bad-credit-lending',
+    link: '/financial-solutions/bad-credit-lending',
     icon: <FaSadCry size={35} />,
   },
 ];
@@ -56,19 +63,26 @@ const financialSolutions = [
 const OurFinancialSolutionsSection = () => {
   return (
     <section className='our-financial-solutions-section'>
-      <h2 className='our-financial-solutions-section-title'>
-        Our Financial Solutions
-      </h2>
+      <h2 className='our-financial-solutions-title'>Our Financial Solutions</h2>
 
-      <div className='our-financial-solutions-section-content'>
+      <div className='our-financial-solutions-content'>
         {financialSolutions.map((solution, index) => (
-          <div key={index} className='financial-solution-card'>
-            <div className='solution-icon'>{solution.icon}</div>
-            <h3 className='solution-title'>{solution.title}</h3>
-            <p className='solution-description'>{solution.description}</p>
-            <a href={solution.link} className='learn-more-link'>
+          <div key={index} className='our-financial-solution-card'>
+            <div className='our-financial-solution-card-icon'>
+              {solution.icon}
+            </div>
+            <h3 className='our-financial-solution-card-title'>
+              {solution.title}
+            </h3>
+            <p className='our-financial-solution-card-description'>
+              {solution.description}
+            </p>
+            <Link
+              className='our-financial-solution-card-learn-more-link'
+              href={solution.link}
+            >
               Learn More
-            </a>
+            </Link>
           </div>
         ))}
       </div>

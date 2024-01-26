@@ -4,48 +4,51 @@
   bg-gradient-to-bl from-gray-200 to-gray-100;
 }
 
-.our-financial-solutions-section-title {
+.our-financial-solutions-title {
   @apply text-center
   text-xl
   text-gray-800
-  mb-6
+  mb-10
   font-light;
 }
 
-.our-financial-solutions-section-content {
+.our-financial-solutions-content {
   @apply grid
   grid-cols-3
   gap-16
-  items-center
+  items-stretch
   justify-center;
 }
 
-.financial-solution-card {
-  @apply bg-white p-6 rounded-md;
-  @apply backdrop-blur-md;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border-radius: 15px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  transition: transform 0.4s ease-in-out;
+.our-financial-solution-card {
+  @apply bg-neutral-50 
+  p-6 
+  rounded-md
+  transition
+  hover:-translate-y-2
+  flex
+  flex-col;
 }
 
-.financial-solution-card:hover {
-  transform: scale(1.05);
+.our-financial-solution-card-icon {
+  @apply text-gray-800 
+  mb-2;
 }
 
-.solution-title {
-  @apply text-xl font-normal mb-3 text-gray-800;
+.our-financial-solution-card-title {
+  @apply text-xl 
+  mb-3 
+  text-gray-800;
 }
 
-.solution-description {
-  @apply text-gray-600;
+.our-financial-solution-card-description {
+  @apply text-gray-600
+  font-light
+  flex-grow
+  mb-2;
 }
 
-.learn-more-link {
-  @apply text-blue-700 hover:underline;
-}
-
-.solution-icon {
-  @apply text-gray-800 mb-2;
+.our-financial-solution-card-learn-more-link {
+  @apply text-blue-700 
+  hover:underline;
 }

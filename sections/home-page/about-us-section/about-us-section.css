@@ -34,7 +34,6 @@
 
 .about-us-card-title {
   @apply text-xl 
-  font-normal 
   mb-3 
   text-gray-800;
 }
