@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'home-hero': "url('/images/ny-business-district.jpg')",
+        'ny-business-district': "url('/images/ny-business-district.jpg')",
+        'financial-success': "url('/images/financial-success.jpg')",
       },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',

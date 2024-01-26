@@ -1,3 +1,16 @@
 .why-choose-us-section {
-  @apply bg-slate-300;
+  @apply bg-financial-success 
+  bg-cover 
+  h-screen
+  relative;
+}
+
+.why-choose-us-bg-img-overlay {
+  @apply bg-overlay
+  absolute
+  inset-0;
+}
+
+.why-choose-us-content {
+  @apply relative;
 }
