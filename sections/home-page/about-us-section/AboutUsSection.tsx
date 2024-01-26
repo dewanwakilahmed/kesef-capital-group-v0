@@ -1,5 +1,8 @@
+'use client';
+
 import Image from 'next/image';
 
+// CSS Import
 import './about-us-section.css';
 
 const AboutUsSection = () => {
