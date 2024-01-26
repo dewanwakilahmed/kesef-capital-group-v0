@@ -1,7 +1,7 @@
 .our-financial-solutions-section {
   @apply px-20
   py-16
-  bg-gradient-to-tr from-gray-200 to-gray-100;
+  bg-gradient-to-bl from-gray-200 to-gray-100;
 }
 
 .our-financial-solutions-section-title {
@@ -44,4 +44,8 @@
 
 .learn-more-link {
   @apply text-blue-700 hover:underline;
+}
+
+.solution-icon {
+  @apply text-gray-800 mb-2;
 }

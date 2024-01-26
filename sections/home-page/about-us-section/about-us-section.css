@@ -35,5 +35,5 @@
 }
 
 .card-description {
-  @apply text-gray-600;
+  @apply text-gray-600 mb-3;
 }
