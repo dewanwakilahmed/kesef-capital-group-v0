@@ -1,4 +1,4 @@
-import Link from 'next/link';
+'use client';
 
 // CSS Import
 import './hero-section.css';
@@ -9,7 +9,7 @@ import Button from '@/components/ui/button/Button';
 const HeroSection = () => {
   return (
     <section className='home-hero-section'>
-      <div className='home-hero-img-overlay' />
+      <div className='home-hero-bg-img-overlay' />
 
       <div className='home-hero-content'>
         <h1 className='home-hero-headline'>
