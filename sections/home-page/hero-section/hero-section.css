@@ -1,4 +1,4 @@
-.hero-section {
+.home-hero-section {
   @apply bg-home-hero 
   bg-cover 
   h-screen
@@ -11,7 +11,7 @@
   inset-0;
 }
 
-.hero-section-content {
+.home-hero-content {
   @apply relative
   h-full
   flex
@@ -21,20 +21,20 @@
   justify-center;
 }
 
-.hero-section-headline {
+.home-hero-headline {
   @apply text-blue-500
   text-center
   text-4xl 
   font-semibold;
 }
 
-.hero-section-subheadline {
-  @apply text-center 
+.home-hero-subheadline {
+  @apply text-neutral-50
+  text-center 
   w-2/3 
   text-xl 
   font-extralight;
 }
 
-.hero-section-cta {
-  @apply mt-5;
+.home-hero-cta {
 }

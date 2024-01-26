@@ -1,25 +1,32 @@
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 
-import '@/sections/home-page/hero-section/hero-section.css';
+// CSS Import
+import './hero-section.css';
+
+// Component Import
+import Button from '@/components/ui/button/Button';
 
 const HeroSection = () => {
   return (
-    <section className='hero-section'>
+    <section className='home-hero-section'>
       <div className='home-hero-img-overlay' />
 
-      <div className='hero-section-content'>
-        <h1 className='hero-section-headline'>
+      <div className='home-hero-content'>
+        <h1 className='home-hero-headline'>
           Funding Your Way: Tailored Solutions for Every Business Dream
         </h1>
 
-        <p className='hero-section-subheadline'>
+        <p className='home-hero-subheadline'>
           Unlock your ambition. Scale your dreams. Partner with Powerhouse
           Funding!
         </p>
 
-        <Button className='hero-section-cta' variant='custom' asChild>
-          <Link href='/financial-solutions'>Explore Our Solutions</Link>
+        <Button
+          className='home-hero-cta'
+          btnType='primary'
+          goTo='/financial-solutions'
+        >
+          Explore Our Solutions
         </Button>
       </div>
     </section>
