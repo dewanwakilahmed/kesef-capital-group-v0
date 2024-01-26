@@ -15,9 +15,9 @@ const HomePage = () => {
   return (
     <div className='home-page'>
       <HeroSection />
-      <AboutUsSection />
       <OurFinancialSolutionsSection />
       <WhyChooseUsSection />
+      <AboutUsSection />
       {/* <TestimonialsSection /> */}
       {/* <CallToActionSection /> */}
     </div>
