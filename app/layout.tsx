@@ -2,8 +2,10 @@ import { FC, ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 
-import '@/app/globals.css';
+// CSS Import
+import './globals.css';
 
+// Section Imports
 import HeaderSection from '@/sections/header-section/HeaderSection';
 import FooterSection from '@/sections/footer-section/FooterSection';
 
@@ -23,9 +25,9 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
       <body className={customFont.className}>
-        <HeaderSection />
+        {/* <HeaderSection /> */}
         <main>{children}</main>
-        <FooterSection />
+        {/* <FooterSection /> */}
       </body>
     </html>
   );
