@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import '@/sections/home-page/about-us-section/about-us-section.css';
+import './about-us-section.css';
 
 const AboutUsSection = () => {
   return (
