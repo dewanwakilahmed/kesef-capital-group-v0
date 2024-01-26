@@ -1,5 +1,9 @@
-import '@/app/home-page.css';
+'use client';
 
+// CSS Import
+import './home-page.css';
+
+// Section Imports
 import HeroSection from '@/sections/home-page/hero-section/HeroSection';
 import AboutUsSection from '@/sections/home-page/about-us-section/AboutUsSection';
 import OurFinancialSolutionsSection from '@/sections/home-page/our-financial-solutions-section/OurFinancialSolutionsSection';
@@ -13,9 +17,9 @@ const HomePage = () => {
       <HeroSection />
       <AboutUsSection />
       <OurFinancialSolutionsSection />
-      <WhyChooseUsSection />
-      <TestimonialsSection />
-      <CallToActionSection />
+      {/* <WhyChooseUsSection /> */}
+      {/* <TestimonialsSection /> */}
+      {/* <CallToActionSection /> */}
     </div>
   );
 };
