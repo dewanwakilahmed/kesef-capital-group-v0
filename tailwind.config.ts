@@ -75,13 +75,6 @@ const config = {
       backgroundImage: {
         'home-hero': "url('/images/ny-business-district.jpg')",
       },
-      objectFit: {
-        fill: 'fill',
-        contain: 'contain',
-        cover: 'cover',
-        none: 'none',
-        'scale-down': 'scale-down',
-      },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',
       },
