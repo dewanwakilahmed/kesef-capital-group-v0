@@ -42,7 +42,9 @@ const financialSolutions = [
 const OurFinancialSolutionsSection = () => {
   return (
     <section className='our-financial-solutions-section'>
-      <h2 className='section-title'>Our Financial Solutions</h2>
+      <h2 className='our-financial-solutions-section-title'>
+        Our Financial Solutions
+      </h2>
 
       <div className='our-financial-solutions-section-content'>
         {financialSolutions.map((solution, index) => (
