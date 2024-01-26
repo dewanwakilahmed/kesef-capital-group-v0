@@ -1,8 +1,13 @@
 .why-choose-us-section {
   @apply bg-financial-success 
   bg-cover 
-  h-screen
-  relative;
+  relative
+  px-20
+  py-16
+  flex
+  flex-col
+  justify-center
+  items-center;
 }
 
 .why-choose-us-bg-img-overlay {
@@ -11,6 +16,55 @@
   inset-0;
 }
 
+.why-choose-us-title {
+  @apply relative
+  text-center
+  text-xl
+  text-neutral-50
+  mb-10
+  font-light;
+}
+
 .why-choose-us-content {
-  @apply relative;
+  @apply relative
+  bg-neutral-950/50
+  backdrop-blur-md
+  rounded-md
+  p-14
+  w-2/3
+  flex
+  flex-col
+  gap-8
+  shadow-md
+  hover:bg-neutral-950/60
+  hover:shadow-xl;
+}
+
+.benefit-item {
+  @apply flex
+  items-center
+  gap-4;
+}
+
+.benefit-item-icon {
+  @apply text-neutral-50;
+}
+
+.benefit-item-text {
+  @apply flex
+  flex-col;
+}
+
+.benefit-item-title {
+  @apply text-lg
+  text-neutral-50;
+}
+
+.benefit-item-description {
+  @apply text-neutral-400
+  font-light;
+}
+
+.why-choose-us-cta {
+  @apply relative mt-5;
 }
