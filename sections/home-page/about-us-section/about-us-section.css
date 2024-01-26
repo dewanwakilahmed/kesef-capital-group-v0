@@ -4,7 +4,7 @@
   bg-gradient-to-tr from-gray-200 to-gray-100;
 }
 
-.about-us-section-title {
+.about-us-title {
   @apply text-center
   text-xl
   text-gray-800
@@ -12,28 +12,36 @@
   font-light;
 }
 
-.about-us-section-content {
+.about-us-content {
   @apply grid
   grid-cols-2
   gap-16
-  items-center
+  items-stretch
   justify-center;
 }
 
-.custom-card {
-  @apply bg-white p-6 rounded-md;
-  @apply shadow-lg;
-  transition: transform 0.4s ease-in-out;
+.about-us-card {
+  @apply bg-white 
+  p-6 
+  rounded-md
+  shadow-lg 
+  transition
+  hover:bg-gray-100
+  hover:shadow-xl
+  flex
+  flex-col;
 }
 
-.custom-card:hover {
-  @apply bg-gray-100 shadow-xl;
+.about-us-card-title {
+  @apply text-xl 
+  font-normal 
+  mb-3 
+  text-gray-800;
 }
 
-.card-title {
-  @apply text-xl font-normal mb-3 text-gray-800;
-}
-
-.card-description {
-  @apply text-gray-600 mb-3;
+.about-us-card-description {
+  @apply text-gray-600
+  font-light 
+  mb-3
+  flex-grow;
 }
