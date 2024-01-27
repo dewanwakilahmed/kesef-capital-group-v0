@@ -3,6 +3,43 @@
 @tailwind utilities;
 
 @layer components {
+  .hero-section {
+    @apply bg-cover 
+    h-screen
+    relative;
+  }
+
+  .hero-bg-img-overlay {
+    @apply bg-overlay
+    absolute
+    inset-0;
+  }
+
+  .hero-content {
+    @apply relative
+    h-full
+    flex
+    flex-col
+    gap-5
+    items-center
+    justify-center;
+  }
+
+  .hero-headline {
+    @apply text-primary
+    text-center
+    text-4xl 
+    font-semibold;
+  }
+
+  .hero-subheadline {
+    @apply text-neutral-50
+    text-center 
+    w-2/3 
+    text-xl 
+    font-extralight;
+  }
+
   .section-title {
     @apply text-center
     text-xl

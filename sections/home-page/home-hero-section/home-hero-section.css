@@ -1,39 +1,22 @@
 .home-hero-section {
   @apply bg-ny-business-district 
-  bg-cover 
-  h-screen
-  relative;
+  hero-section;
 }
 
 .home-hero-bg-img-overlay {
-  @apply bg-overlay
-  absolute
-  inset-0;
+  @apply hero-bg-img-overlay;
 }
 
 .home-hero-content {
-  @apply relative
-  h-full
-  flex
-  flex-col
-  gap-5
-  items-center
-  justify-center;
+  @apply hero-content;
 }
 
 .home-hero-headline {
-  @apply text-primary
-  text-center
-  text-4xl 
-  font-semibold;
+  @apply hero-headline;
 }
 
 .home-hero-subheadline {
-  @apply text-neutral-50
-  text-center 
-  w-2/3 
-  text-xl 
-  font-extralight;
+  @apply hero-subheadline;
 }
 
 .home-hero-cta {
