@@ -27,17 +27,17 @@
 
 .why-choose-us-content {
   @apply relative
-  bg-neutral-950/50
-  backdrop-blur-md
   rounded-md
-  p-14
-  w-2/3
+  p-12
   flex
   flex-col
   gap-8
   shadow-md
-  hover:bg-neutral-950/60
-  hover:shadow-xl;
+  hover:shadow-xl
+  bg-neutral-900/70
+  hover:bg-neutral-900/85
+  backdrop-blur-sm
+  text-neutral-50;
 }
 
 .benefit-item {
@@ -56,12 +56,12 @@
 }
 
 .benefit-item-title {
-  @apply text-lg
-  text-neutral-50;
+  @apply text-neutral-50;
 }
 
 .benefit-item-description {
   @apply text-neutral-400
+  text-sm
   font-light;
 }
 
