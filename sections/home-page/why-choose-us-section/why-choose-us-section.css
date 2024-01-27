@@ -1,25 +1,16 @@
 .why-choose-us-section {
-  @apply bg-financial-success 
-  bg-cover 
-  relative
-  px-20
-  py-16
-  flex
-  flex-col
-  justify-center
-  items-center;
+  @apply section
+  section-with-bg-img
+  bg-financial-success;
 }
 
 .why-choose-us-bg-img-overlay {
-  @apply bg-overlay
-  absolute
-  inset-0;
+  @apply bg-img-overlay;
 }
 
 .why-choose-us-title {
-  @apply relative
-  text-neutral-50
-  section-title;
+  @apply section-title
+  section-title-with-bg-img;
 }
 
 .why-choose-us-content {

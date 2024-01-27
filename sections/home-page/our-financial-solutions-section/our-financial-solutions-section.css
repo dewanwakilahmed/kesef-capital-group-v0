@@ -1,17 +1,16 @@
 .our-financial-solutions-section {
-  @apply px-20
-  py-16
-  bg-gradient-to-tr from-gray-300 to-gray-100;
+  @apply section
+  section-with-no-bg-img;
 }
 
 .our-financial-solutions-title {
   @apply section-title
-  text-gray-800;
+  section-title-with-no-bg-img;
 }
 
 .our-financial-solutions-content {
-  @apply grid
-  grid-cols-3
+  @apply grid-cols-3
+  grid
   gap-16
   items-stretch
   justify-center;
@@ -44,7 +43,7 @@
   @apply text-gray-600
   font-light
   flex-grow
-  mb-2;
+  mb-3;
 }
 
 .our-financial-solution-card-learn-more-link {

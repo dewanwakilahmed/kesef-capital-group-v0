@@ -3,16 +3,44 @@
 @tailwind utilities;
 
 @layer components {
-  .hero-section {
+  .section {
+    @apply px-20
+    py-16
+    flex
+    flex-col
+    gap-10
+    justify-center
+    items-center;
+  }
+
+  .section-with-bg-img {
     @apply bg-cover 
-    h-screen
     relative;
   }
 
-  .hero-bg-img-overlay {
+  .section-with-no-bg-img {
+    @apply bg-gradient-to-tr from-gray-300 to-gray-100;
+  }
+
+  .bg-img-overlay {
     @apply bg-overlay
     absolute
     inset-0;
+  }
+
+  .section-title {
+    @apply text-center
+    text-xl
+    font-light;
+  }
+
+  .section-title-with-bg-img {
+    @apply relative
+    text-neutral-50;
+  }
+
+  .section-title-with-no-bg-img {
+    @apply text-gray-800;
   }
 
   .hero-content {
@@ -35,15 +63,7 @@
   .hero-subheadline {
     @apply text-neutral-50
     text-center 
-    w-2/3 
     text-xl 
     font-extralight;
-  }
-
-  .section-title {
-    @apply text-center
-    text-xl
-    mb-10
-    font-light;
   }
 }

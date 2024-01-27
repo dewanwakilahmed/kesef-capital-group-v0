@@ -1,10 +1,12 @@
 .home-hero-section {
-  @apply bg-ny-business-district 
-  hero-section;
+  @apply section
+  section-with-bg-img 
+  bg-ny-business-district
+  h-screen;
 }
 
 .home-hero-bg-img-overlay {
-  @apply hero-bg-img-overlay;
+  @apply bg-img-overlay;
 }
 
 .home-hero-content {

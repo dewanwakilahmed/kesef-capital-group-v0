@@ -1,17 +1,16 @@
 .call-to-action-section {
-  @apply px-20
-  py-16
-  bg-gradient-to-tr from-gray-200 to-gray-100;
+  @apply section
+  section-with-no-bg-img;
 }
 
 .call-to-action-title {
   @apply section-title
-  text-gray-800;
+  section-title-with-no-bg-img;
 }
 
 .call-to-action-content {
-  @apply grid
-  grid-cols-2
+  @apply grid-cols-2
+  grid
   gap-16
   items-stretch
   justify-center;
@@ -38,8 +37,8 @@
 .call-to-action-card-description {
   @apply text-gray-600
   font-light 
-  mb-3
-  flex-grow;
+  flex-grow
+  mb-3;
 }
 
 .call-to-action-card-btn {
