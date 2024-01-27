@@ -28,7 +28,17 @@ const TestimonialsSection = () => {
       <div className='testimonials-bg-img-overlay' />
 
       <h2 className='testimonials-title'>Testimonials</h2>
-      <div className='testimonials-content'>Content</div>
+      <div className='testimonials-content'>
+        <div className='carousel'>
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className='testimonial'>
+              <h3>{testimonial.name}</h3>
+              <h4>{testimonial.position}</h4>
+              <p>{testimonial.feedback}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

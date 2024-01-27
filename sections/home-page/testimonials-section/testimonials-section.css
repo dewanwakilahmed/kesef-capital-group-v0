@@ -1,19 +1,19 @@
 .testimonials-section {
-  @apply bg-office-workplace 
-  bg-cover 
-  relative
+  @apply relative
+  bg-office-workplace
+  bg-cover
   px-20
   py-16
-  h-screen
   flex
   flex-col
   justify-center
   items-center;
+  background-position: center 75%;
 }
 
 .testimonials-bg-img-overlay {
-  @apply bg-overlay
-  absolute
+  @apply absolute 
+  bg-overlay
   inset-0;
 }
 
@@ -21,15 +21,13 @@
   @apply relative
   text-center
   text-xl
-  text-neutral-50
   mb-10
+  text-neutral-50
   font-light;
 }
 
 .testimonials-content {
   @apply relative
-  bg-neutral-950/50
-  backdrop-blur-md
   rounded-md
   p-14
   w-2/3
@@ -37,6 +35,40 @@
   flex-col
   gap-8
   shadow-md
-  hover:bg-neutral-950/60
   hover:shadow-xl;
+}
+
+.carousel {
+  @apply flex
+  overflow-x-auto;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial {
+  @apply flex-shrink-0
+  w-full
+  flex
+  flex-col
+  gap-4
+  justify-center
+  items-center
+  text-center
+  p-10;
+}
+
+.testimonial h3 {
+  @apply text-lg
+  font-semibold;
+}
+
+.testimonial h4 {
+  @apply text-sm
+  font-light;
+}
+
+.testimonial p {
+  @apply text-base;
 }
