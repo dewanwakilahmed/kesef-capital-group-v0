@@ -13,19 +13,19 @@ const benefits = [
     title: 'Fast Approval Process',
     description:
       'Experience quick and efficient approval timelines for your funding needs.',
-    icon: <FaCheckCircle size={35} />,
+    icon: <FaCheckCircle size={50} />,
   },
   {
     title: 'Flexible and Competitive Rates',
     description:
       "Enjoy financing options with rates that adapt to your business's unique requirements.",
-    icon: <FaBalanceScale size={35} />,
+    icon: <FaBalanceScale size={50} />,
   },
   {
     title: 'Personalized Solutions',
     description:
       'Tailored financial solutions designed to meet the specific needs of your business.',
-    icon: <FaHandshake size={35} />,
+    icon: <FaHandshake size={50} />,
   },
 ];
 
@@ -38,12 +38,10 @@ const WhyChooseUsSection = () => {
 
       <div className='why-choose-us-content'>
         {benefits.map((benefit, index) => (
-          <div key={index} className='benefit-item'>
-            <div className='benefit-item-icon'>{benefit.icon}</div>
-            <div className='benefit-item-text'>
-              <h3 className='benefit-item-title'>{benefit.title}</h3>
-              <p className='benefit-item-description'>{benefit.description}</p>
-            </div>
+          <div key={index} className='benefit-card'>
+            <div className='benefit-card-icon'>{benefit.icon}</div>
+            <h3 className='benefit-card-title'>{benefit.title}</h3>
+            <p className='benefit-card-description'>{benefit.description}</p>
           </div>
         ))}
       </div>

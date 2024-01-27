@@ -14,43 +14,44 @@
 }
 
 .why-choose-us-content {
-  @apply relative
-  rounded-md
-  p-12
-  flex
+  @apply grid-cols-3
+  grid
+  gap-16
+  items-stretch
+  justify-center
+  relative;
+}
+
+.benefit-card {
+  @apply flex
   flex-col
-  gap-8
+  gap-1
+  items-center
+  justify-center
+  p-10
   shadow-md
   hover:shadow-xl
   bg-neutral-900/70
   hover:bg-neutral-900/85
   backdrop-blur-sm
-  text-neutral-50;
+  transition
+  rounded-md;
 }
 
-.benefit-item {
-  @apply flex
-  items-center
-  gap-4;
+.benefit-card-icon {
+  @apply text-neutral-50
+  mb-2;
 }
 
-.benefit-item-icon {
+.benefit-card-title {
   @apply text-neutral-50;
 }
 
-.benefit-item-text {
-  @apply flex
-  flex-col;
-}
-
-.benefit-item-title {
-  @apply text-neutral-50;
-}
-
-.benefit-item-description {
+.benefit-card-description {
   @apply text-neutral-400
   text-sm
-  font-light;
+  font-light
+  text-center;
 }
 
 .why-choose-us-cta {

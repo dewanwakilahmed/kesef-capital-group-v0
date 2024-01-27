@@ -13,7 +13,8 @@
   grid
   gap-16
   items-stretch
-  justify-center;
+  justify-center
+  relative;
 }
 
 .about-us-card {
