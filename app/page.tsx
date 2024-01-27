@@ -19,7 +19,7 @@ const HomePage = () => {
       <WhyChooseUsSection />
       <AboutUsSection />
       <TestimonialsSection />
-      {/* <CallToActionSection /> */}
+      <CallToActionSection />
     </div>
   );
 };

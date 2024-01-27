@@ -1,3 +1,47 @@
 .call-to-action-section {
-  @apply bg-slate-500;
+  @apply px-20
+  py-16
+  bg-gradient-to-tr from-gray-200 to-gray-100;
+}
+
+.call-to-action-title {
+  @apply section-title
+  text-gray-800;
+}
+
+.call-to-action-content {
+  @apply grid
+  grid-cols-2
+  gap-16
+  items-stretch
+  justify-center;
+}
+
+.call-to-action-card {
+  @apply bg-neutral-50 
+  p-6 
+  rounded-md
+  shadow-lg 
+  transition
+  hover:bg-neutral-100
+  hover:shadow-xl
+  flex
+  flex-col;
+}
+
+.call-to-action-card-title {
+  @apply text-xl 
+  mb-3 
+  text-gray-800;
+}
+
+.call-to-action-card-description {
+  @apply text-gray-600
+  font-light 
+  mb-3
+  flex-grow;
+}
+
+.call-to-action-card-btn {
+  @apply mx-auto;
 }
