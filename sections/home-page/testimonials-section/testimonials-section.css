@@ -28,47 +28,47 @@
 
 .testimonials-content {
   @apply relative
-  rounded-md
-  p-14
-  w-2/3
-  flex
-  flex-col
-  gap-8
-  shadow-md
-  hover:shadow-xl;
-}
-
-.carousel {
-  @apply flex
-  overflow-x-auto;
-}
-
-.carousel::-webkit-scrollbar {
-  display: none;
+  grid
+  grid-cols-3
+  gap-8;
 }
 
 .testimonial {
-  @apply flex-shrink-0
-  w-full
+  @apply w-full
   flex
   flex-col
   gap-4
   justify-center
   items-center
   text-center
-  p-10;
+  p-10
+  bg-neutral-900/70
+  hover:bg-neutral-900/85
+  backdrop-blur-sm
+  text-neutral-50
+  transition;
+}
+
+.testimonial-image {
+  @apply rounded-lg
+  w-36
+  h-auto;
 }
 
 .testimonial h3 {
   @apply text-lg
-  font-semibold;
+  font-bold;
 }
 
 .testimonial h4 {
   @apply text-sm
-  font-light;
+  text-neutral-300
+  font-medium
+  -mt-3;
 }
 
 .testimonial p {
-  @apply text-base;
+  @apply text-sm 
+  text-neutral-400
+  font-light;
 }
