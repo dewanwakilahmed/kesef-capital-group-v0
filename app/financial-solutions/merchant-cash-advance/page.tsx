@@ -5,9 +5,14 @@ import { FC } from 'react';
 // Import CSS
 import './merchant-cash-advance-page.css';
 
+// Import Sections
+import WhatIsMerchantCashAdvanceSection from '@/sections/financial-solutions-page/merchant-cash-advance-page/what-is-section/WhatIsMerchantCashAdvanceSection';
+
 const MerchantCashAdvancePage: FC = () => {
   return (
-    <div className='merchant-cash-advance-page'>MerchantCashAdvancePage</div>
+    <div className='merchant-cash-advance-page'>
+      <WhatIsMerchantCashAdvanceSection />
+    </div>
   );
 };
 
