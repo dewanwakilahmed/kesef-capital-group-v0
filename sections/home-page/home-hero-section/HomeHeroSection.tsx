@@ -1,12 +1,12 @@
 'use client';
 
 // CSS Import
-import './hero-section.css';
+import './home-hero-section.css';
 
 // Component Import
 import Button from '@/components/ui/button/Button';
 
-const HeroSection = () => {
+const HomeHeroSection = () => {
   return (
     <section className='home-hero-section'>
       <div className='home-hero-bg-img-overlay' />
@@ -33,4 +33,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HomeHeroSection;

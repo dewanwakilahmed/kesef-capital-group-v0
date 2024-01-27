@@ -4,7 +4,7 @@
 import './home-page.css';
 
 // Section Imports
-import HeroSection from '@/sections/home-page/hero-section/HeroSection';
+import HomeHeroSection from '@/sections/home-page/home-hero-section/HomeHeroSection';
 import AboutUsSection from '@/sections/home-page/about-us-section/AboutUsSection';
 import OurFinancialSolutionsSection from '@/sections/home-page/our-financial-solutions-section/OurFinancialSolutionsSection';
 import WhyChooseUsSection from '@/sections/home-page/why-choose-us-section/WhyChooseUsSection';
@@ -14,7 +14,7 @@ import CallToActionSection from '@/sections/home-page/call-to-action-section/Cal
 const HomePage = () => {
   return (
     <div className='home-page'>
-      <HeroSection />
+      <HomeHeroSection />
       <OurFinancialSolutionsSection />
       <WhyChooseUsSection />
       <AboutUsSection />
