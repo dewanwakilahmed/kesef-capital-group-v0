@@ -22,7 +22,7 @@
 }
 
 .home-hero-headline {
-  @apply text-blue-500
+  @apply text-primary
   text-center
   text-4xl 
   font-semibold;

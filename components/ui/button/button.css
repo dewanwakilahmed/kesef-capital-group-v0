@@ -6,7 +6,7 @@
 }
 
 .primary {
-  @apply text-white
-  bg-blue-500 
-  hover:bg-blue-500/75;
+  @apply text-neutral-50
+  bg-primary 
+  hover:bg-primary/75;
 }

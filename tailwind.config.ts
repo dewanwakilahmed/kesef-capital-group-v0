@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+const colors = require('tailwindcss/colors');
 
 const config: Config = {
   content: [
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#3b82f6',
+      },
       backgroundImage: {
         'ny-business-district': "url('/images/ny-business-district.jpg')",
         'financial-success': "url('/images/financial-success.jpg')",
