@@ -6,7 +6,7 @@ import { FC } from 'react';
 import './merchant-cash-advance-page.css';
 
 // Import Sections
-import WhatIsMerchantCashAdvanceSection from '@/sections/financial-solutions-page/merchant-cash-advance-page/what-is-section/WhatIsMerchantCashAdvanceSection';
+import WhatIsMerchantCashAdvanceSection from '@/sections/financial-solutions-page/merchant-cash-advance-page/what-is-merchant-cash-advance-section/WhatIsMerchantCashAdvanceSection';
 
 const MerchantCashAdvancePage: FC = () => {
   return (
