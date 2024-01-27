@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         'ny-business-district': "url('/images/ny-business-district.jpg')",
         'financial-success': "url('/images/financial-success.jpg')",
+        'office-workplace': "url('/images/office-workplace.jpg')",
       },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',

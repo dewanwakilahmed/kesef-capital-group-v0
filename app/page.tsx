@@ -18,7 +18,7 @@ const HomePage = () => {
       <OurFinancialSolutionsSection />
       <WhyChooseUsSection />
       <AboutUsSection />
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection />
       {/* <CallToActionSection /> */}
     </div>
   );

@@ -1,3 +1,42 @@
 .testimonials-section {
-  @apply bg-slate-400;
+  @apply bg-office-workplace 
+  bg-cover 
+  relative
+  px-20
+  py-16
+  h-screen
+  flex
+  flex-col
+  justify-center
+  items-center;
+}
+
+.testimonials-bg-img-overlay {
+  @apply bg-overlay
+  absolute
+  inset-0;
+}
+
+.testimonials-title {
+  @apply relative
+  text-center
+  text-xl
+  text-neutral-50
+  mb-10
+  font-light;
+}
+
+.testimonials-content {
+  @apply relative
+  bg-neutral-950/50
+  backdrop-blur-md
+  rounded-md
+  p-14
+  w-2/3
+  flex
+  flex-col
+  gap-8
+  shadow-md
+  hover:bg-neutral-950/60
+  hover:shadow-xl;
 }
