@@ -18,11 +18,8 @@
 
 .why-choose-us-title {
   @apply relative
-  text-center
-  text-xl
   text-neutral-50
-  mb-10
-  font-light;
+  section-title;
 }
 
 .why-choose-us-content {

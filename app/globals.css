@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .section-title {
+    @apply text-center
+    text-xl
+    mb-10
+    font-light;
+  }
+}

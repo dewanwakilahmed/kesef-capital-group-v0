@@ -1,15 +1,12 @@
 .our-financial-solutions-section {
   @apply px-20
   py-16
-  bg-gradient-to-bl from-gray-200 to-gray-100;
+  bg-gradient-to-tr from-gray-300 to-gray-100;
 }
 
 .our-financial-solutions-title {
-  @apply text-center
-  text-xl
-  text-gray-800
-  mb-10
-  font-light;
+  @apply section-title
+  text-gray-800;
 }
 
 .our-financial-solutions-content {
