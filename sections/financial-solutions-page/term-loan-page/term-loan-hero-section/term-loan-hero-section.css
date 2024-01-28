@@ -1,0 +1,27 @@
+.term-loan-hero-section {
+  @apply section
+  section-with-bg-img 
+  bg-ny-business-district
+  h-screen;
+}
+
+.term-loan-bg-img-overlay {
+  @apply bg-img-overlay;
+}
+
+.term-loan-content {
+  @apply hero-content;
+}
+
+.term-loan-headline {
+  @apply hero-headline;
+}
+
+.term-loan-subheadline {
+  @apply hero-subheadline
+  -mt-2;
+}
+
+.term-loan-cta {
+  @apply mt-2;
+}
