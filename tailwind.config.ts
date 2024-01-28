@@ -21,6 +21,8 @@ const config: Config = {
           "url('/images/hero-images/merchant-cash-advance.webp')",
         'term-loan-hero': "url('/images/hero-images/term-loan.webp')",
         'line-of-credit-hero': "url('/images/hero-images/line-of-credit.webp')",
+        'bad-credit-lending-hero':
+          "url('/images/hero-images/bad-credit-lending.webp')",
       },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',

@@ -15,18 +15,18 @@ const BadCreditLendingHeroSection: FC = () => {
 
       <div className='bad-credit-lending-hero-content'>
         <h1 className='bad-credit-lending-hero-headline'>
-          Funding Your Way: Tailored Solutions for Every Business Dream
+          Access Capital with Bad Credit Lending Solutions
         </h1>
 
         <p className='bad-credit-lending-hero-subheadline'>
-          Unlock your ambition. Scale your dreams. Partner with Powerhouse
-          Funding!
+          Overcome Financial Challenges, Rebuild Your Credit, Partner with
+          Specialized Lenders for Personalized Financing Options!
         </p>
 
         <Button
           className='bad-credit-lending-hero-cta'
           btnType='primary'
-          goTo='/financial-solutions'
+          goTo='/apply-now'
         >
           Apply Now
         </Button>

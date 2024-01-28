@@ -1,7 +1,7 @@
 .bad-credit-lending-hero-section {
   @apply section
   section-with-bg-img 
-  bg-ny-business-district
+  bg-bad-credit-lending-hero
   h-screen;
 }
 
