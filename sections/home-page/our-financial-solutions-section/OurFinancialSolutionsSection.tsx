@@ -21,42 +21,42 @@ const financialSolutions = [
     title: 'Merchant Cash Advance',
     description:
       'Unlock immediate capital based on your credit card sales, with flexible repayment.',
-    link: '/financial-solutions/merchant-cash-advance',
+    link: '/merchant-cash-advance',
     icon: <FaMoneyBillWave size={35} />,
   },
   {
     title: 'Term Loan',
     description:
       'Secure a lump sum for your business with fixed repayments over a specified term.',
-    link: '/financial-solutions/term-loan',
+    link: '/term-loan',
     icon: <FaHandHoldingUsd size={35} />,
   },
   {
     title: 'Line of Credit',
     description:
       'Flexible financing with access to funds up to a predetermined credit limit.',
-    link: '/financial-solutions/line-of-credit',
+    link: '/line-of-credit',
     icon: <FaCreditCard size={35} />,
   },
   {
     title: 'Asset Based Lending',
     description:
       'Leverage your business assets to secure a flexible and tailored financing solution.',
-    link: '/financial-solutions/asset-based-lending',
+    link: '/asset-based-lending',
     icon: <FaCoins size={35} />,
   },
   {
     title: 'Equipment Financing',
     description:
       'Acquire the equipment your business needs with financing options customized for you.',
-    link: '/financial-solutions/equipment-financing',
+    link: '/equipment-financing',
     icon: <FaTools size={35} />,
   },
   {
     title: 'Bad Credit Lending',
     description:
       'Overcome credit challenges and access the funding your business requires to thrive.',
-    link: '/financial-solutions/bad-credit-lending',
+    link: '/bad-credit-lending',
     icon: <FaSadCry size={35} />,
   },
 ];

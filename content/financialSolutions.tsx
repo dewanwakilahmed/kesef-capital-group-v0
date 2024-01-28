@@ -2,9 +2,9 @@ export const financialSolutions = [
   {
     name: 'Merchant Cash Advance',
     heroSection: {
-      bgImg: 'merchant-cash-advance-hero',
+      title: 'merchant-cash-advance',
       headline: 'Accelerate Your Business Growth with Merchant Cash Advance',
-      subHeadline:
+      subheadline:
         'Fuel Your Ambition, Drive Success, Partner with Powerhouse Funding for Flexible Financing Solutions!',
     },
     whatIsSection: {
@@ -101,9 +101,9 @@ export const financialSolutions = [
   {
     name: 'Term Loan',
     heroSection: {
-      bgImg: 'term-loan-hero',
+      title: 'term-loan',
       headline: 'Empower Your Business with Flexible Term Loans',
-      subHeadline:
+      subheadline:
         'Unlock Growth Opportunities, Secure Your Future, Partner with Reliable Lenders for Tailored Financing Solutions!',
     },
     whatIsSection: {
@@ -200,9 +200,9 @@ export const financialSolutions = [
   {
     name: 'Line of Credit',
     heroSection: {
-      bgImg: 'line-of-credit-hero',
+      title: 'line-of-credit',
       headline: 'Unlock Financial Flexibility with a Line of Credit',
-      subHeadline:
+      subheadline:
         'Seize Opportunities, Manage Cash Flow, Partner with Trusted Lenders for Tailored Financing Solutions!',
     },
     whatIsSection: {
@@ -299,9 +299,9 @@ export const financialSolutions = [
   {
     name: 'Bad Credit Lending',
     heroSection: {
-      bgImg: 'bad-credit-lending-hero',
+      title: 'bad-credit-lending',
       headline: 'Access Capital with Bad Credit Lending Solutions',
-      subHeadline:
+      subheadline:
         'Overcome Financial Challenges, Rebuild Your Credit, Partner with Specialized Lenders for Personalized Financing Options!',
     },
     whatIsSection: {
@@ -398,9 +398,9 @@ export const financialSolutions = [
   {
     name: 'Equipment Financing',
     heroSection: {
-      bgImg: 'equipment-financing-hero',
+      title: 'equipment-financing',
       headline: 'Upgrade Your Business with Equipment Financing',
-      subHeadline:
+      subheadline:
         'Invest in Success, Acquire Essential Equipment, Partner with Leading Lenders for Tailored Financing Solutions!',
     },
     whatIsSection: {
@@ -497,9 +497,9 @@ export const financialSolutions = [
   {
     name: 'Asset Based Lending',
     heroSection: {
-      bgImg: 'asset-based-lending-hero',
+      title: 'asset-based-lending',
       headline: 'Maximize Your Assets with Asset Based Lending',
-      subHeadline:
+      subheadline:
         'Unlock Capital, Leverage Your Assets, Partner with Industry Leaders for Customized Financing Solutions!',
     },
     whatIsSection: {

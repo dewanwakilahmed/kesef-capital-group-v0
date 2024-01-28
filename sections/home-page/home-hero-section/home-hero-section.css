@@ -1,7 +1,7 @@
 .home-hero-section {
   @apply section
   section-with-bg-img 
-  bg-ny-business-district
+  bg-home-hero
   h-screen;
 }
 
