@@ -18,8 +18,10 @@
 }
 
 .home-hero-subheadline {
-  @apply hero-subheadline;
+  @apply hero-subheadline
+  -mt-2;
 }
 
 .home-hero-cta {
+  @apply mt-2;
 }
