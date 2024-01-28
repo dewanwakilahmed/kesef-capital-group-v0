@@ -29,9 +29,8 @@
 }
 
 .financial-solution-description {
-  @apply text-gray-600
-  font-light
-  flex-grow;
+  @apply card-description
+  card-description-light;
 }
 
 .financial-solution-learn-more-link {

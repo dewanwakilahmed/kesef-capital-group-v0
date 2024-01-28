@@ -99,4 +99,19 @@
     hover:bg-neutral-900/85
     backdrop-blur-sm;
   }
+
+  .card-description {
+    @apply font-light 
+    flex-grow;
+  }
+
+  .card-description-light {
+    @apply text-gray-600;
+  }
+
+  .card-description-dark {
+    @apply text-neutral-400
+    text-sm
+    text-center;
+  }
 }

@@ -45,8 +45,6 @@
 }
 
 .testimonial-person-feedback {
-  @apply text-neutral-400
-  text-sm
-  font-light
-  text-center;
+  @apply card-description
+  card-description-dark;
 }
