@@ -1,8 +1,8 @@
 .testimonials-section {
   @apply section
   section-with-bg-img
-  bg-office-workplace;
-  background-position: center 75%;
+  bg-office-workplace
+  bg-[75%];
 }
 
 .testimonials-bg-img-overlay {
@@ -23,7 +23,7 @@
   relative;
 }
 
-.testimonial {
+.testimonial-card {
   @apply flex
   flex-col
   gap-1
@@ -39,27 +39,27 @@
   rounded-md;
 }
 
-.testimonial-image {
+.testimonial-person-image {
   @apply w-36
   h-auto
   rounded-lg
   mb-6;
 }
 
-.testimonial h3 {
+.testimonial-person-name {
   @apply text-lg
   text-neutral-50
   font-bold;
 }
 
-.testimonial h4 {
+.testimonial-person-position {
   @apply text-sm
   text-neutral-300
   font-medium
   mb-2;
 }
 
-.testimonial p {
+.testimonial-person-feedback {
   @apply text-neutral-400
   text-sm
   font-light
