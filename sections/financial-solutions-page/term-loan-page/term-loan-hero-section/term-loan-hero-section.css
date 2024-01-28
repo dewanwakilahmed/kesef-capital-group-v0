@@ -1,7 +1,7 @@
 .term-loan-hero-section {
   @apply section
   section-with-bg-img 
-  bg-ny-business-district
+  bg-term-loan-hero
   h-screen;
 }
 

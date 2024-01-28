@@ -19,6 +19,7 @@ const config: Config = {
         'office-workplace': "url('/images/office-workplace.jpg')",
         'merchant-cash-advance-hero':
           "url('/images/hero-images/merchant-cash-advance.webp')",
+        'term-loan-hero': "url('/images/hero-images/term-loan.webp')",
       },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',

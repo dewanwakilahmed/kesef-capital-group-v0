@@ -15,19 +15,15 @@ const TermLoanHeroSection: FC = () => {
 
       <div className='term-loan-content'>
         <h1 className='term-loan-headline'>
-          Funding Your Way: Tailored Solutions for Every Business Dream
+          Empower Your Business with Flexible Term Loans
         </h1>
 
         <p className='term-loan-subheadline'>
-          Unlock your ambition. Scale your dreams. Partner with Powerhouse
-          Funding!
+          Unlock Growth Opportunities, Secure Your Future, Partner with Reliable
+          Lenders for Tailored Financing Solutions!
         </p>
 
-        <Button
-          className='term-loan-cta'
-          btnType='primary'
-          goTo='/financial-solutions'
-        >
+        <Button className='term-loan-cta' btnType='primary' goTo='/apply-now'>
           Apply Now
         </Button>
       </div>
