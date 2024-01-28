@@ -1,0 +1,27 @@
+.line-of-credit-hero-section {
+  @apply section
+  section-with-bg-img 
+  bg-ny-business-district
+  h-screen;
+}
+
+.line-of-credit-hero-bg-img-overlay {
+  @apply bg-img-overlay;
+}
+
+.line-of-credit-hero-content {
+  @apply hero-content;
+}
+
+.line-of-credit-hero-headline {
+  @apply hero-headline;
+}
+
+.line-of-credit-hero-subheadline {
+  @apply hero-subheadline
+  -mt-2;
+}
+
+.line-of-credit-hero-cta {
+  @apply mt-2;
+}
