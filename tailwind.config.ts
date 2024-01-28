@@ -13,9 +13,12 @@ const config: Config = {
         primary: '#3b82f6',
       },
       backgroundImage: {
-        'ny-business-district': "url('/images/ny-business-district.jpg')",
+        'ny-business-district':
+          "url('/images/hero-images/ny-business-district.jpg')",
         'financial-success': "url('/images/financial-success.jpg')",
         'office-workplace': "url('/images/office-workplace.jpg')",
+        'merchant-cash-advance-hero':
+          "url('/images/hero-images/merchant-cash-advance.webp')",
       },
       backgroundColor: {
         overlay: 'rgba(0, 0, 0, 0.75)',

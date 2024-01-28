@@ -15,18 +15,18 @@ const MerchantCashAdvanceHeroSection: FC = () => {
 
       <div className='merchant-cash-advance-hero-content'>
         <h1 className='merchant-cash-advance-hero-headline'>
-          Funding Your Way: Tailored Solutions for Every Business Dream
+          Accelerate Your Business Growth with Merchant Cash Advance
         </h1>
 
         <p className='merchant-cash-advance-hero-subheadline'>
-          Unlock your ambition. Scale your dreams. Partner with Powerhouse
-          Funding!
+          Fuel Your Ambition, Drive Success, Partner with Powerhouse Funding for
+          Flexible Financing Solutions!
         </p>
 
         <Button
           className='merchant-cash-advance-hero-cta'
           btnType='primary'
-          goTo='/financial-solutions'
+          goTo='/apply-now'
         >
           Apply Now
         </Button>

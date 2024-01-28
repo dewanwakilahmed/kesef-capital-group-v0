@@ -1,7 +1,7 @@
 .merchant-cash-advance-hero-section {
   @apply section
   section-with-bg-img 
-  bg-ny-business-district
+  bg-merchant-cash-advance-hero
   h-screen;
 }
 
