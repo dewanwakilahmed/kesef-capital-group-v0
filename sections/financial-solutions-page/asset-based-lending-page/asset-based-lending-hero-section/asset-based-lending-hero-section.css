@@ -1,0 +1,27 @@
+.asset-based-lending-hero-section {
+  @apply section
+  section-with-bg-img 
+  bg-ny-business-district
+  h-screen;
+}
+
+.asset-based-lending-hero-bg-img-overlay {
+  @apply bg-img-overlay;
+}
+
+.asset-based-lending-hero-content {
+  @apply hero-content;
+}
+
+.asset-based-lending-hero-headline {
+  @apply hero-headline;
+}
+
+.asset-based-lending-hero-subheadline {
+  @apply hero-subheadline
+  -mt-2;
+}
+
+.asset-based-lending-hero-cta {
+  @apply mt-2;
+}
