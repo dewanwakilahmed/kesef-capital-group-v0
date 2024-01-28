@@ -15,8 +15,8 @@
 }
 
 .testimonials-content {
-  @apply grid-cols-3
-  section-content;
+  @apply section-content
+  grid-cols-3;
 }
 
 .testimonial-card {

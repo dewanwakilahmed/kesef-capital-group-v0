@@ -9,8 +9,8 @@
 }
 
 .about-us-content {
-  @apply grid-cols-2
-  section-content;
+  @apply section-content
+  grid-cols-2;
 }
 
 .about-us-card {
@@ -20,8 +20,8 @@
 
 .about-us-card-title {
   @apply text-xl 
-  mb-3 
-  text-gray-800;
+  text-gray-800
+  mb-3;
 }
 
 .about-us-card-description {
