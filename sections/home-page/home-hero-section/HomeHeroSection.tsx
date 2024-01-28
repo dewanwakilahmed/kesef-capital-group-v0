@@ -1,12 +1,14 @@
 'use client';
 
+import { FC } from 'react';
+
 // CSS Import
 import './home-hero-section.css';
 
 // Component Import
 import Button from '@/components/ui/button/Button';
 
-const HomeHeroSection = () => {
+const HomeHeroSection: FC = () => {
   return (
     <section className='home-hero-section'>
       <div className='home-hero-bg-img-overlay' />
