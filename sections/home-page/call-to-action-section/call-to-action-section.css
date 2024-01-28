@@ -10,23 +10,12 @@
 
 .call-to-action-content {
   @apply grid-cols-2
-  grid
-  gap-16
-  items-stretch
-  justify-center
-  relative;
+  section-content;
 }
 
 .call-to-action-card {
-  @apply bg-neutral-50 
-  p-6 
-  rounded-md
-  shadow-lg 
-  transition
-  hover:bg-neutral-100
-  hover:shadow-xl
-  flex
-  flex-col;
+  @apply card
+  card-light;
 }
 
 .call-to-action-card-title {

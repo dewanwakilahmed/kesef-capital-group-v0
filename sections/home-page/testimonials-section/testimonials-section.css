@@ -16,27 +16,12 @@
 
 .testimonials-content {
   @apply grid-cols-3
-  grid
-  gap-16
-  items-stretch
-  justify-center
-  relative;
+  section-content;
 }
 
 .testimonial-card {
-  @apply flex
-  flex-col
-  gap-1
-  items-center
-  justify-center
-  p-10
-  shadow-md
-  hover:shadow-xl
-  bg-neutral-900/70
-  hover:bg-neutral-900/85
-  backdrop-blur-sm
-  transition
-  rounded-md;
+  @apply card
+  card-dark;
 }
 
 .testimonial-person-image {

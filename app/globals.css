@@ -66,4 +66,37 @@
     text-xl 
     font-extralight;
   }
+
+  .section-content {
+    @apply grid
+    gap-10
+    items-stretch
+    justify-center
+    relative;
+  }
+
+  .card {
+    @apply flex
+    flex-col
+    gap-1  
+    rounded-md
+    transition
+    shadow-lg 
+    hover:shadow-xl;
+  }
+
+  .card-light {
+    @apply p-7
+    bg-neutral-50 
+    hover:bg-neutral-100;
+  }
+
+  .card-dark {
+    @apply items-center
+    justify-center
+    p-10
+    bg-neutral-900/70
+    hover:bg-neutral-900/85
+    backdrop-blur-sm;
+  }
 }

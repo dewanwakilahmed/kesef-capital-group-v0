@@ -10,41 +10,28 @@
 
 .our-financial-solutions-content {
   @apply grid-cols-3
-  grid
-  gap-16
-  items-stretch
-  justify-center
-  relative;
+  section-content;
 }
 
 .our-financial-solution-card {
-  @apply bg-neutral-50 
-  p-6 
-  rounded-md
-  transition
-  shadow-lg 
-  hover:bg-neutral-100
-  hover:shadow-xl
-  flex
-  flex-col;
+  @apply card
+  card-light;
 }
 
 .our-financial-solution-card-icon {
   @apply text-gray-800 
-  mb-2;
+  mb-3;
 }
 
 .our-financial-solution-card-title {
   @apply text-xl 
-  mb-3 
   text-gray-800;
 }
 
 .our-financial-solution-card-description {
   @apply text-gray-600
   font-light
-  flex-grow
-  mb-3;
+  flex-grow;
 }
 
 .our-financial-solution-card-learn-more-link {
