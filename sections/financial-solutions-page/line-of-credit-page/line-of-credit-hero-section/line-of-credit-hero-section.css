@@ -1,7 +1,7 @@
 .line-of-credit-hero-section {
   @apply section
   section-with-bg-img 
-  bg-ny-business-district
+  bg-line-of-credit-hero
   h-screen;
 }
 

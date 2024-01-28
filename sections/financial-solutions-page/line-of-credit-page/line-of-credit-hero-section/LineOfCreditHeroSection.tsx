@@ -15,18 +15,18 @@ const LineOfCreditHeroSection: FC = () => {
 
       <div className='line-of-credit-hero-content'>
         <h1 className='line-of-credit-hero-headline'>
-          Funding Your Way: Tailored Solutions for Every Business Dream
+          Unlock Financial Flexibility with a Line of Credit
         </h1>
 
         <p className='line-of-credit-hero-subheadline'>
-          Unlock your ambition. Scale your dreams. Partner with Powerhouse
-          Funding!
+          Seize Opportunities, Manage Cash Flow, Partner with Trusted Lenders
+          for Tailored Financing Solutions!
         </p>
 
         <Button
           className='line-of-credit-hero-cta'
           btnType='primary'
-          goTo='/financial-solutions'
+          goTo='/apply-now'
         >
           Apply Now
         </Button>
