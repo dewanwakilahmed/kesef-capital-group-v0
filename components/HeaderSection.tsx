@@ -17,7 +17,7 @@ const HeaderSection: FC = () => {
         <nav className='navbar text-gray-800'>
           <ul className='navbar-list flex gap-6 items-center justify-center text-neutral-50'>
             <DropdownMenu />
-            <li className='navbar-item bg-neutral-900/70 hover:bg-neutral-900/85 px-4 py-2 transition cursor-pointer'>
+            <li className='navbar-item hover:text-primary px-4 py-2 transition cursor-pointer'>
               <Link href='/contact-us'>Contact Us</Link>
             </li>
             <Button

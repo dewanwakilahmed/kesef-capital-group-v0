@@ -8,30 +8,30 @@ const DropdownMenu: FC = () => {
 
   return (
     <li
-      className='navbar-item bg-neutral-900/70 hover:bg-neutral-900/85 px-4 py-2 transition cursor-pointer relative'
+      className='navbar-item px-4 py-2 transition cursor-pointer relative hover:text-primary'
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
     >
       Financial Solutions
       {isOpen && (
-        <ul className='dropdown-menu absolute bg-neutral-900/70 right-0 top-11'>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
+        <ul className='dropdown-menu absolute bg-neutral-950/50 hover:backdrop-blur-md shadow-lg hover:shadow-xl transition left-0 top-10 text-neutral-50'>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
             <Link href='/merchant-cash-advance'>Merchant Cash Advance</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
             <Link href='/term-loan'>Term Loan</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
-            <Link href='/term-loan'>Line Of Credit</Link>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
+            <Link href='/line-of-credit'>Line Of Credit</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
-            <Link href='/term-loan'>Asset Based Lending</Link>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
+            <Link href='/asset-based-lending'>Asset Based Lending</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
-            <Link href='/term-loan'>Equipment Financing</Link>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
+            <Link href='/equipment-financing'>Equipment Financing</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-900/85 whitespace-nowrap'>
-            <Link href='/term-loan'>Bad Credit Lending</Link>
+          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/75 transition whitespace-nowrap'>
+            <Link href='/bad-credit-lending'>Bad Credit Lending</Link>
           </li>
         </ul>
       )}
