@@ -10,7 +10,7 @@ export const financialSolutions = [
     whatIsSection: {
       sectionTitle: 'What is Merchant Cash Advance',
       sectionContent:
-        'A Merchant Cash Advance (MCA) is a financial solution where a business receives a lump sum payment in exchange for a percentage of its future credit card sales. Unlike traditional loans, an MCA is not based on a fixed repayment schedule but rather on a percentage of daily or weekly credit card sales.',
+        'A Merchant Cash Advance (MCA) is a financial solution where a business receives a lump sum payment in exchange for a percentage of its future credit card sales. Unlike traditional loans, an MCA is not based on a fixed repayment schedule but rather on a percentage of daily or weekly credit card sales. This allows businesses to access funds quickly without the constraints of a traditional loan, making it an attractive option for those in need of immediate capital.',
     },
     howItWorksSection: {
       sectionTitle: 'How It Works',
@@ -80,6 +80,11 @@ export const financialSolutions = [
           description:
             'Dealing with unexpected costs, such as equipment repairs or unforeseen business disruptions.',
         },
+        {
+          title: 'Debt Consolidation',
+          description:
+            'Consolidating existing debts to simplify repayment and potentially reduce overall interest costs.',
+        },
       ],
     },
     considerationsSection: {
@@ -94,6 +99,16 @@ export const financialSolutions = [
           title: 'Impact on Cash Flow',
           description:
             'Since repayments are based on a percentage of credit card sales, businesses must consider how fluctuations in sales volume may affect their cash flow.',
+        },
+        {
+          title: 'Prepayment Penalties',
+          description:
+            'Some MCAs may impose penalties for early repayment, which can increase the overall cost of the advance if the business seeks to pay it off ahead of schedule.',
+        },
+        {
+          title: 'Legal and Regulatory Compliance',
+          description:
+            'Businesses should ensure they understand the legal and regulatory requirements associated with MCAs in their jurisdiction to avoid any potential issues or penalties.',
         },
       ],
     },

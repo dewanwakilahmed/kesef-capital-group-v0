@@ -38,7 +38,7 @@ const HowItWorksSection: FC<HowItWorksSectionProps> = ({
 
       <div
         className='how-it-works-content section-content
-  grid-cols-4'
+  grid-cols-2'
       >
         {sectionContent.map(({ title, description }) => (
           <div className='how-it-works-card card card-dark' key={title}>

@@ -10,8 +10,9 @@ import PageHeroSection from '@/components/PageHeroSection';
 import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
 import HowItWorksSection from '@/components/financial-solution-page-sections/HowItWorksSection';
 import BenefitsSection from '@/components/financial-solution-page-sections/BenefitsSection';
-import CallToActionSection from '@/sections/home-page/call-to-action-section/CallToActionSection';
+import UseCasesSection from '@/components/financial-solution-page-sections/UseCasesSection';
 import ConsiderationsSection from '@/components/financial-solution-page-sections/ConsiderationsSections';
+import CallToActionSection from '@/sections/home-page/call-to-action-section/CallToActionSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -27,6 +28,7 @@ const FinancialSolutionPage = () => {
   const whatIs = financialSolution.whatIsSection;
   const howItWorks = financialSolution.howItWorksSection;
   const benefits = financialSolution.benefitsSection;
+  const useCases = financialSolution.useCasesSection;
   const considerations = financialSolution.considerationsSection;
 
   return (
@@ -48,6 +50,11 @@ const FinancialSolutionPage = () => {
       <BenefitsSection
         sectionTitle={benefits.sectionTitle}
         sectionContent={benefits.sectionContent}
+      />
+      <UseCasesSection
+        solutionTitle={hero.title}
+        sectionTitle={useCases.sectionTitle}
+        sectionContent={useCases.sectionContent}
       />
       <ConsiderationsSection
         sectionTitle={considerations.sectionTitle}

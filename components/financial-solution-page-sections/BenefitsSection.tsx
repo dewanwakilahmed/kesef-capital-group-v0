@@ -27,7 +27,7 @@ const BenefitsSection: FC<BenefitsSectionProps> = ({
 
       <div
         className='benefits-content section-content
-  grid-cols-4'
+  grid-cols-2'
       >
         {sectionContent.map(({ title, description }) => (
           <div className='benefits-card card card-light' key={title}>
