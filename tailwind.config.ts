@@ -13,7 +13,7 @@ const config: Config = {
         primary: '#3b82f6',
       },
       backgroundColor: {
-        overlay: 'rgba(0, 0, 0, 0.75)',
+        overlay: 'rgba(0, 0, 0, 0.60)',
       },
     },
   },

@@ -10,11 +10,11 @@ const HeaderSection: FC = () => {
   return (
     <header className='header-section w-full fixed z-10 bg-neutral-950/25 backdrop-blur hover:backdrop-blur-md shadow-lg hover:shadow-xl'>
       <div className='header-content px-20 py-5 flex items-center justify-between'>
-        <div className='company-logo text-lg text-neutral-50 font-bold'>
+        <div className='company-logo text-lg text-neutral-50 hover:text-neutral-200 font-bold transition'>
           <Link href='/'>POWERHOUSE FUNDING</Link>
         </div>
 
-        <nav className='navbar text-gray-800'>
+        <nav className='navbar'>
           <ul className='navbar-list flex gap-6 items-center justify-center text-neutral-50'>
             <DropdownMenu />
             <li className='navbar-item hover:text-primary px-4 py-2 transition cursor-pointer'>
