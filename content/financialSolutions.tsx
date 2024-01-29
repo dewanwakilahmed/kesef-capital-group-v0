@@ -67,17 +67,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Working Capital',
-          content:
+          description:
             'Covering day-to-day expenses, such as payroll, inventory restocking, or utility bills.',
         },
         {
           title: 'Business Expansion',
-          content:
+          description:
             'Funding marketing campaigns, purchasing equipment, or expanding operations.',
         },
         {
           title: 'Emergency Expenses',
-          content:
+          description:
             'Dealing with unexpected costs, such as equipment repairs or unforeseen business disruptions.',
         },
       ],
@@ -87,12 +87,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Cost',
-          content:
+          description:
             'While MCAs offer quick access to capital, they often come with higher fees and interest rates compared to traditional loans. Businesses should carefully evaluate the overall cost before committing to an MCA.',
         },
         {
           title: 'Impact on Cash Flow',
-          content:
+          description:
             'Since repayments are based on a percentage of credit card sales, businesses must consider how fluctuations in sales volume may affect their cash flow.',
         },
       ],
@@ -166,17 +166,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Capital Investments',
-          content:
+          description:
             'Funding major purchases, such as equipment upgrades, real estate acquisitions, or technology investments.',
         },
         {
           title: 'Expansion Projects',
-          content:
+          description:
             'Launching new product lines, opening additional locations, or entering new markets.',
         },
         {
           title: 'Debt Consolidation',
-          content:
+          description:
             'Consolidating existing debts into a single loan with more favorable terms and repayment options.',
         },
       ],
@@ -186,12 +186,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Eligibility Criteria',
-          content:
+          description:
             'Term loans may have strict eligibility criteria related to credit scores, business performance, and collateral, which businesses should consider before applying.',
         },
         {
           title: 'Long-Term Commitment',
-          content:
+          description:
             'Borrowers should evaluate their long-term financial needs and ability to meet repayment obligations before committing to a term loan to avoid financial strain.',
         },
       ],
@@ -265,17 +265,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Working Capital Management',
-          content:
+          description:
             'Managing day-to-day expenses, such as payroll, inventory purchases, or operational costs.',
         },
         {
           title: 'Seasonal Cash Flow Fluctuations',
-          content:
+          description:
             'Managing seasonal fluctuations in revenue or expenses by accessing funds as needed during peak and off-peak periods.',
         },
         {
           title: 'Growth Initiatives',
-          content:
+          description:
             'Funding growth initiatives, such as marketing campaigns, product development, or expansion projects, without disrupting existing cash flow.',
         },
       ],
@@ -285,12 +285,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Interest Rates and Fees',
-          content:
+          description:
             'Businesses should carefully review the interest rates, fees, and repayment terms associated with a line of credit to understand the total cost of borrowing.',
         },
         {
           title: 'Responsible Borrowing',
-          content:
+          description:
             'While a line of credit offers flexibility, businesses should borrow responsibly and avoid overextending their finances to prevent debt accumulation and financial strain.',
         },
       ],
@@ -364,17 +364,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Debt Consolidation',
-          content:
+          description:
             'Consolidating high-interest debts into a single, more manageable loan to simplify repayment and reduce overall interest expenses.',
         },
         {
           title: 'Business Funding',
-          content:
+          description:
             'Accessing capital to fund business initiatives, such as purchasing inventory, hiring staff, or investing in marketing efforts, despite past credit challenges.',
         },
         {
           title: 'Emergency Expenses',
-          content:
+          description:
             'Dealing with unexpected financial emergencies, such as medical bills, car repairs, or home renovations, without relying on high-interest credit cards or payday loans.',
         },
       ],
@@ -384,12 +384,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Higher Costs',
-          content:
+          description:
             'Borrowers should be aware of the potentially higher costs associated with bad credit lending, including higher interest rates, fees, and stricter terms.',
         },
         {
           title: 'Credit Rebuilding Strategies',
-          content:
+          description:
             'Borrowers should develop a plan to improve their credit scores over time by making timely payments, reducing debt, and managing finances responsibly to qualify for better financing options in the future.',
         },
       ],
@@ -463,17 +463,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Equipment Acquisition',
-          content:
+          description:
             'Purchasing essential equipment such as manufacturing machinery, vehicles for transportation, or technology for digital operations.',
         },
         {
           title: 'Expansion Projects',
-          content:
+          description:
             'Scaling operations by acquiring additional equipment to meet growing demand, expand product offerings, or enter new markets.',
         },
         {
           title: 'Technology Upgrades',
-          content:
+          description:
             'Investing in the latest technology and equipment innovations to improve efficiency, quality, and customer experience.',
         },
       ],
@@ -483,12 +483,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Total Cost of Ownership',
-          content:
+          description:
             'Businesses should consider the total cost of ownership, including upfront costs, financing fees, maintenance expenses, and operational impact, when evaluating equipment financing options.',
         },
         {
           title: 'Equipment Lifecycle',
-          content:
+          description:
             'Businesses should assess the expected lifecycle of the equipment and align financing terms with its useful life to avoid potential obsolescence and minimize financial risk.',
         },
       ],
@@ -562,17 +562,17 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Working Capital Support',
-          content:
+          description:
             'Using accounts receivable or inventory as collateral to secure a revolving line of credit for day-to-day operations or seasonal cash flow fluctuations.',
         },
         {
           title: 'Asset Expansion',
-          content:
+          description:
             'Using equipment or real estate as collateral to finance the acquisition of additional assets or upgrade existing facilities.',
         },
         {
           title: 'Debt Restructuring',
-          content:
+          description:
             'Using assets to secure a term loan to consolidate existing debts, improve cash flow, and reduce interest expenses.',
         },
       ],
@@ -582,12 +582,12 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Asset Valuation',
-          content:
+          description:
             'Businesses should ensure that their assets are accurately assessed to maximize borrowing capacity while maintaining asset liquidity and operational efficiency.',
         },
         {
           title: 'Compliance Requirements',
-          content:
+          description:
             'ABL may involve ongoing reporting and compliance requirements, such as asset appraisals, inventory audits, or financial covenants, which businesses must adhere to throughout the loan term.',
         },
       ],
