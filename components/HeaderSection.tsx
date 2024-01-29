@@ -1,24 +1,23 @@
 'use client';
 
 import { FC } from 'react';
-
-import Button from '@/components/ui/button/Button';
 import Link from 'next/link';
+
+import DropdownMenu from './ui/DropdownMenu';
+import Button from '@/components/ui/button/Button';
 
 const HeaderSection: FC = () => {
   return (
     <header className='header-section w-full fixed z-10 bg-neutral-950/25 backdrop-blur hover:backdrop-blur-md shadow-lg hover:shadow-xl'>
       <div className='header-content px-20 py-5 flex items-center justify-between'>
-        <div className='company-logo text-lg text-neutral-50'>
+        <div className='company-logo text-lg text-neutral-50 font-bold'>
           <Link href='/'>POWERHOUSE FUNDING</Link>
         </div>
 
         <nav className='navbar text-gray-800'>
-          <ul className='navbar-list flex gap-6 items-center justify-center'>
-            <li className='navbar-item bg-neutral-50/75 hover:bg-neutral-50/90 px-4 py-2 transition cursor-pointer'>
-              Financial Solutions
-            </li>
-            <li className='navbar-item bg-neutral-50/75 hover:bg-neutral-50/90 px-4 py-2 transition cursor-pointer'>
+          <ul className='navbar-list flex gap-6 items-center justify-center text-neutral-50'>
+            <DropdownMenu />
+            <li className='navbar-item bg-neutral-900/70 hover:bg-neutral-900/85 px-4 py-2 transition cursor-pointer'>
               <Link href='/contact-us'>Contact Us</Link>
             </li>
             <Button
