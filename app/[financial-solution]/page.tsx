@@ -5,6 +5,7 @@ import { financialSolutions } from '@/content/financialSolutions';
 import { usePathname } from 'next/navigation';
 
 import PageHeroSection from '@/components/PageHeroSection';
+import WhatIsSection from '@/components/financial-solution-page-section/WhatIsSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -16,12 +17,19 @@ const FinancialSolutionPage = () => {
 
   if (!financialSolution) return <div>Financial Solution Not Found!</div>;
 
+  const hero = financialSolution.heroSection;
+  const whatIs = financialSolution.whatIsSection;
+
   return (
-    <div className={`${financialSolution.heroSection.title}-page`}>
+    <div className={`${hero.title}-page`}>
       <PageHeroSection
-        solutionTitle={financialSolution.heroSection.title}
-        headline={financialSolution.heroSection.headline}
-        subheadline={financialSolution.heroSection.subheadline}
+        solutionTitle={hero.title}
+        headline={hero.headline}
+        subheadline={hero.subheadline}
+      />
+      <WhatIsSection
+        sectionTitle={whatIs.sectionTitle}
+        sectionContent={whatIs.sectionContent}
       />
     </div>
   );
