@@ -10,6 +10,7 @@ import PageHeroSection from '@/components/PageHeroSection';
 import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
 import HowItWorksSection from '@/components/financial-solution-page-sections/HowItWorksSection';
 import BenefitsSection from '@/components/financial-solution-page-sections/BenefitsSection';
+import CallToActionSection from '@/sections/home-page/call-to-action-section/CallToActionSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -46,6 +47,7 @@ const FinancialSolutionPage = () => {
         sectionTitle={benefits.sectionTitle}
         sectionContent={benefits.sectionContent}
       />
+      <CallToActionSection />
     </div>
   );
 };
