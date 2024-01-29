@@ -21,6 +21,7 @@ const PageHeroSection: FC<PageHeroSectionProps> = ({
       className={`${solutionTitle}-hero-section section section-with-bg-img h-screen`}
       style={{
         backgroundImage: `url('/images/hero-images/${solutionTitle}-hero.webp')`,
+        backgroundPosition: 'center',
       }}
     >
       <div className='bg-img-overlay' />
