@@ -60,14 +60,8 @@ const financialSolutions = [
 
 const OurFinancialSolutionsSection: FC = () => {
   return (
-    <section
-      className='our-financial-solutions-section section
-    section-with-no-bg-img'
-    >
-      <h2
-        className='our-financial-solutions-title section-title
-  section-title-with-no-bg-img'
-      >
+    <section className='our-financial-solutions-section section section-with-no-bg-img'>
+      <h2 className='our-financial-solutions-title section-title section-title-with-no-bg-img'>
         Our Financial Solutions
       </h2>
 
