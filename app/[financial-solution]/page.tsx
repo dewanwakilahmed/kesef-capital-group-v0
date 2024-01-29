@@ -11,6 +11,7 @@ import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsS
 import HowItWorksSection from '@/components/financial-solution-page-sections/HowItWorksSection';
 import BenefitsSection from '@/components/financial-solution-page-sections/BenefitsSection';
 import CallToActionSection from '@/sections/home-page/call-to-action-section/CallToActionSection';
+import ConsiderationsSection from '@/components/financial-solution-page-sections/ConsiderationsSections';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -26,6 +27,7 @@ const FinancialSolutionPage = () => {
   const whatIs = financialSolution.whatIsSection;
   const howItWorks = financialSolution.howItWorksSection;
   const benefits = financialSolution.benefitsSection;
+  const considerations = financialSolution.considerationsSection;
 
   return (
     <div className={`${hero.title}-page`}>
@@ -46,6 +48,10 @@ const FinancialSolutionPage = () => {
       <BenefitsSection
         sectionTitle={benefits.sectionTitle}
         sectionContent={benefits.sectionContent}
+      />
+      <ConsiderationsSection
+        sectionTitle={considerations.sectionTitle}
+        sectionContent={considerations.sectionContent}
       />
       <CallToActionSection />
     </div>
