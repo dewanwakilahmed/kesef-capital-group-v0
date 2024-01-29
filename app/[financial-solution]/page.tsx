@@ -8,6 +8,7 @@ import { financialSolutions } from '@/content/financialSolutions';
 // Section Components Imports
 import PageHeroSection from '@/components/PageHeroSection';
 import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
+import HowItWorksSection from '@/components/financial-solution-page-sections/how-it-works-section/HowItWorksSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -21,6 +22,7 @@ const FinancialSolutionPage = () => {
 
   const hero = financialSolution.heroSection;
   const whatIs = financialSolution.whatIsSection;
+  const howItWorks = financialSolution.howItWorksSection;
 
   return (
     <div className={`${hero.title}-page`}>
@@ -32,6 +34,11 @@ const FinancialSolutionPage = () => {
       <WhatIsSection
         sectionTitle={whatIs.sectionTitle}
         sectionContent={whatIs.sectionContent}
+      />
+      <HowItWorksSection
+        solutionTitle={hero.title}
+        sectionTitle={howItWorks.sectionTitle}
+        sectionContent={howItWorks.sectionContent}
       />
     </div>
   );

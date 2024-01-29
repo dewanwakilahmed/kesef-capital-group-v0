@@ -76,7 +76,8 @@
   }
 
   .card {
-    @apply flex
+    @apply p-6
+    flex
     flex-col
     gap-1  
     rounded-md
@@ -86,15 +87,13 @@
   }
 
   .card-light {
-    @apply p-7
-    bg-neutral-50 
+    @apply bg-neutral-50 
     hover:bg-neutral-100;
   }
 
   .card-dark {
     @apply items-center
     justify-center
-    p-10
     bg-neutral-900/70
     hover:bg-neutral-900/85
     backdrop-blur-sm;

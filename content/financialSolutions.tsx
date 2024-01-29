@@ -17,22 +17,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Advance Amount',
-          content:
+          description:
             'Upon approval, the business receives a predetermined sum of money, which is typically based on its average monthly credit card sales.',
         },
         {
           title: 'Repayment Method',
-          content:
+          description:
             'Repayment is made through a specified percentage of future credit card sales. This means that during periods of high sales, the repayment amount increases, while during slower periods, it decreases.',
         },
         {
           title: 'Factor Rate',
-          content:
+          description:
             'The cost of the advance is determined by a factor rate, which is typically expressed as a decimal figure. This rate is multiplied by the advance amount to calculate the total repayment amount.',
         },
         {
           title: 'Automatic Deduction',
-          content:
+          description:
             "Repayments are often automated, with the lender deducting the agreed-upon percentage from the business's daily credit card sales until the advance, plus fees, is fully repaid.",
         },
       ],
@@ -116,22 +116,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Loan Amount',
-          content:
+          description:
             'Upon approval, the business receives a specific amount of money, often based on factors such as creditworthiness, business history, and collateral.',
         },
         {
           title: 'Repayment Schedule',
-          content:
+          description:
             'Repayment is made over a fixed term, typically ranging from months to years, with regular installments that include both principal and interest.',
         },
         {
           title: 'Interest Rate',
-          content:
+          description:
             'The cost of borrowing is determined by an interest rate, which may be fixed or variable, applied to the outstanding loan balance.',
         },
         {
           title: 'Collateral Requirements',
-          content:
+          description:
             'Some term loans may require collateral, such as property or equipment, to secure the loan and mitigate risk for the lender.',
         },
       ],
@@ -215,22 +215,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Credit Limit',
-          content:
+          description:
             'Businesses are approved for a maximum credit limit based on factors such as creditworthiness, business performance, and collateral.',
         },
         {
           title: 'Borrowing and Repayment',
-          content:
+          description:
             'Businesses can withdraw funds from the line of credit as needed, up to the approved limit. They can repay the borrowed amount at any time, and interest is only charged on the outstanding balance.',
         },
         {
           title: 'Revolving Structure',
-          content:
+          description:
             'A line of credit has a revolving structure, meaning that as funds are repaid, they become available to borrow again, providing ongoing access to capital.',
         },
         {
           title: 'Flexible Terms',
-          content:
+          description:
             'LOCs offer flexibility in terms of repayment schedules, allowing businesses to tailor their borrowing and repayment strategies to suit their cash flow needs.',
         },
       ],
@@ -314,22 +314,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Credit Evaluation',
-          content:
+          description:
             "Specialized lenders assess borrowers' creditworthiness based on factors beyond traditional credit scores, such as income stability, business performance, or collateral.",
         },
         {
           title: 'Flexible Terms',
-          content:
+          description:
             "Bad credit lending offers flexible terms and repayment options tailored to the borrower's financial circumstances, providing affordability and convenience.",
         },
         {
           title: 'Higher Interest Rates',
-          content:
+          description:
             'Because of the higher perceived risk associated with bad credit borrowers, interest rates for these lending products may be higher compared to traditional loans.',
         },
         {
           title: 'Collateral or Guarantees',
-          content:
+          description:
             "Some bad credit lending options may require collateral or personal guarantees to mitigate the lender's risk and provide security for the loan.",
         },
       ],
@@ -413,22 +413,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Equipment Acquisition',
-          content:
+          description:
             "Businesses identify the equipment needed for their operations, whether it's machinery, vehicles, technology, or specialized tools.",
         },
         {
           title: 'Financing Options',
-          content:
+          description:
             "Lenders offer financing options such as loans or leases tailored to the business's needs and financial circumstances.",
         },
         {
           title: 'Loan Structure',
-          content:
+          description:
             'Equipment loans provide a lump sum amount that businesses use to purchase equipment outright, while equipment leases involve periodic payments for the use of equipment over a specified term.',
         },
         {
           title: 'Collateral',
-          content:
+          description:
             "The equipment itself serves as collateral for the financing, reducing the lender's risk and potentially offering more favorable terms for the borrower.",
         },
       ],
@@ -512,22 +512,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Asset Evaluation',
-          content:
+          description:
             "Lenders assess the value of the business's assets to determine the borrowing capacity. Assets such as accounts receivable, inventory, equipment, and real estate are evaluated based on their market value.",
         },
         {
           title: 'Loan Structure',
-          content:
+          description:
             'Based on the assessed value of the assets, lenders offer a revolving line of credit or term loan, allowing businesses to borrow funds up to a certain percentage of the asset value.',
         },
         {
           title: 'Collateral Management',
-          content:
+          description:
             'The assets pledged as collateral are monitored regularly by the lender to ensure their value supports the loan amount. Businesses may need to provide periodic reports or undergo audits to maintain compliance.',
         },
         {
           title: 'Risk Mitigation',
-          content:
+          description:
             "ABL provides lenders with a secured interest in the business's assets, reducing the risk of default. In the event of non-payment, lenders have the right to seize and liquidate the assets to recover their funds.",
         },
       ],
