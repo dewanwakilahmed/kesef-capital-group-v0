@@ -8,7 +8,7 @@ import { financialSolutions } from '@/content/financialSolutions';
 // Section Components Imports
 import PageHeroSection from '@/components/PageHeroSection';
 import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
-import HowItWorksSection from '@/components/financial-solution-page-sections/how-it-works-section/HowItWorksSection';
+import HowItWorksSection from '@/components/financial-solution-page-sections/HowItWorksSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
