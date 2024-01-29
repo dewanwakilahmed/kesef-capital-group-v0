@@ -1,11 +1,13 @@
 'use client';
 
-import { financialSolutions } from '@/content/financialSolutions';
-
 import { usePathname } from 'next/navigation';
 
+// Content Import
+import { financialSolutions } from '@/content/financialSolutions';
+
+// Section Components Imports
 import PageHeroSection from '@/components/PageHeroSection';
-import WhatIsSection from '@/components/financial-solution-page-section/WhatIsSection';
+import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
