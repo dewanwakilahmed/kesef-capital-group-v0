@@ -1,8 +1,8 @@
 'use client';
 
-// CSS Import
-import './call-to-action-section.css';
+import { FC } from 'react';
 
+// UI Component Import
 import Button from '@/components/ui/button/Button';
 
 const ctaItems = [
@@ -24,20 +24,26 @@ const ctaItems = [
   },
 ];
 
-const CallToActionSection = () => {
+const CallToActionSection: FC = () => {
   return (
-    <section className='call-to-action-section'>
-      <h2 className='call-to-action-title'>Get Started Today</h2>
+    <section className='call-to-action-section section section-with-no-bg-img'>
+      <h2 className='call-to-action-title section-title section-title-with-no-bg-img'>
+        Get Started Today
+      </h2>
 
-      <div className='call-to-action-content'>
+      <div className='call-to-action-content section-content grid-cols-2'>
         {ctaItems.map((item, index) => (
-          <div className='call-to-action-card' key={index}>
-            <h3 className='call-to-action-card-title'>{item.title}</h3>
-            <p className='call-to-action-card-description'>
+          <div className='call-to-action-card card card-light' key={index}>
+            <h3 className='call-to-action-card-title text-lg text-gray-800 mb-3'>
+              {item.title}
+            </h3>
+
+            <p className='call-to-action-card-description card-description card-description-light mb-3'>
               {item.description}
             </p>
+
             <Button
-              className='call-to-action-card-btn'
+              className='call-to-action-card-btn mx-auto'
               btnType={item.btnType}
               goTo={item.link}
             >

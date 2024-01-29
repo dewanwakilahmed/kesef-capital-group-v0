@@ -3,9 +3,6 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
-// CSS Import
-import './our-financial-solutions-section.css';
-
 // Icon Imports
 import {
   FaMoneyBillWave,
@@ -63,22 +60,38 @@ const financialSolutions = [
 
 const OurFinancialSolutionsSection: FC = () => {
   return (
-    <section className='our-financial-solutions-section'>
-      <h2 className='our-financial-solutions-title'>Our Financial Solutions</h2>
+    <section
+      className='our-financial-solutions-section section
+    section-with-no-bg-img'
+    >
+      <h2
+        className='our-financial-solutions-title section-title
+  section-title-with-no-bg-img'
+      >
+        Our Financial Solutions
+      </h2>
 
-      <div className='our-financial-solutions-content'>
+      <div className='our-financial-solutions-content section-content grid-cols-3'>
         {financialSolutions.map((solution, index) => (
-          <div key={index} className='financial-solution-card'>
-            <div className='financial-solution-icon'>{solution.icon}</div>
+          <div
+            key={index}
+            className='financial-solution-card card
+          card-light'
+          >
+            <div className='financial-solution-icon text-gray-800 mb-3'>
+              {solution.icon}
+            </div>
 
-            <h3 className='financial-solution-title'>{solution.title}</h3>
+            <h3 className='financial-solution-title text-lg text-gray-800'>
+              {solution.title}
+            </h3>
 
-            <p className='financial-solution-description'>
+            <p className='financial-solution-description card-description card-description-light'>
               {solution.description}
             </p>
 
             <Link
-              className='financial-solution-learn-more-link'
+              className='financial-solution-learn-more-link text-blue-700 hover:underline mt-1'
               href={solution.link}
             >
               Learn More

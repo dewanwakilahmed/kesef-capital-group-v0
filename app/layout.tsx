@@ -6,8 +6,8 @@ import { Montserrat } from 'next/font/google';
 import './globals.css';
 
 // Section Imports
-import HeaderSection from '@/sections/header-section/HeaderSection';
-import FooterSection from '@/sections/footer-section/FooterSection';
+import HeaderSection from '@/components/HeaderSection';
+import FooterSection from '@/components/FooterSection';
 
 const customFont = Montserrat({ subsets: ['latin'] });
 
