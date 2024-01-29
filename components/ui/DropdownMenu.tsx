@@ -11,6 +11,7 @@ const DropdownMenu: FC = () => {
       className='navbar-item px-4 py-2 transition cursor-pointer relative hover:text-primary'
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
+      onClick={() => setIsOpen(false)}
     >
       Financial Solutions
       {isOpen && (

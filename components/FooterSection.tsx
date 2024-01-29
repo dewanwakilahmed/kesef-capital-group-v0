@@ -6,21 +6,21 @@ import { FaRegBuilding } from 'react-icons/fa';
 
 const Footer: FC = () => {
   return (
-    <div className='px-20 py-10 bg-neutral-950/60 text-neutral-50'>
+    <div className='px-20 py-10 bg-overlay text-neutral-50'>
       <div className='flex items-center justify-between'>
-        <div className='company-logo text-lg font-bold hover:text-neutral-200 transition'>
+        <div className='company-logo text-lg font-bold hover:text-primary transition'>
           <Link href='/'>POWERHOUSE FUNDING</Link>
         </div>
 
-        <address className='flex items-center justify-center gap-3 hover:text-neutral-200 transition'>
+        <address className='flex items-center justify-center gap-3 hover:text-primary transition'>
           <FaRegBuilding size={30} />
           <span>123 Main St, Anytown, USA</span>
         </address>
-        <div className='flex items-center justify-center gap-3 hover:text-neutral-200 transition'>
+        <div className='flex items-center justify-center gap-3 hover:text-primary transition'>
           <AiOutlinePhone size={32.5} />
           <a href='tel:1234567890'>(123) 456-7890</a>
         </div>
-        <div className='flex items-center justify-center gap-3 hover:text-neutral-200 transition'>
+        <div className='flex items-center justify-center gap-3 hover:text-primary transition'>
           <AiOutlineMail size={32.5} />
           <a href='mailto:email@example.com'>support@powerhouse.com</a>
         </div>
