@@ -20,7 +20,7 @@ const WhatIsSection: FC<WhatIsSectionProps> = ({
         {sectionTitle}
       </h2>
 
-      <div className='what-is-content what-is-card card card-light'>
+      <div className='what-is-content what-is-card card card-light text-gray-800'>
         {sectionContent}
       </div>
     </section>
