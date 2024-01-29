@@ -9,6 +9,7 @@ import { financialSolutions } from '@/content/financialSolutions';
 import PageHeroSection from '@/components/PageHeroSection';
 import WhatIsSection from '@/components/financial-solution-page-sections/WhatIsSection';
 import HowItWorksSection from '@/components/financial-solution-page-sections/HowItWorksSection';
+import BenefitsSection from '@/components/financial-solution-page-sections/BenefitsSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();
@@ -23,6 +24,7 @@ const FinancialSolutionPage = () => {
   const hero = financialSolution.heroSection;
   const whatIs = financialSolution.whatIsSection;
   const howItWorks = financialSolution.howItWorksSection;
+  const benefits = financialSolution.benefitsSection;
 
   return (
     <div className={`${hero.title}-page`}>
@@ -39,6 +41,10 @@ const FinancialSolutionPage = () => {
         solutionTitle={hero.title}
         sectionTitle={howItWorks.sectionTitle}
         sectionContent={howItWorks.sectionContent}
+      />
+      <BenefitsSection
+        sectionTitle={benefits.sectionTitle}
+        sectionContent={benefits.sectionContent}
       />
     </div>
   );

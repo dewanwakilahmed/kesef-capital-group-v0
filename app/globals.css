@@ -110,7 +110,6 @@
 
   .card-description-dark {
     @apply text-neutral-400
-    text-sm
     text-center;
   }
 }

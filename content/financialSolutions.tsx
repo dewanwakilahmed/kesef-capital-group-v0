@@ -42,22 +42,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Quick Access to Capital',
-          content:
+          description:
             'MCA offers rapid access to funds, often within days, making it ideal for businesses with immediate financial needs.',
         },
         {
           title: 'Flexible Repayment',
-          content:
+          description:
             "Repayments fluctuate with the business's sales volume, providing flexibility during slow periods.",
         },
         {
           title: 'No Collateral Required',
-          content:
+          description:
             "MCA is an unsecured form of financing, meaning businesses don't need to put up collateral to secure the advance.",
         },
         {
           title: 'Bad Credit Consideration',
-          content:
+          description:
             "MCA providers typically consider the business's sales history rather than solely relying on credit scores, making it accessible to businesses with less-than-perfect credit.",
         },
       ],
@@ -141,22 +141,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Predictable Repayment',
-          content:
+          description:
             'Term loans offer a predictable repayment schedule, allowing businesses to budget effectively and plan for future expenses.',
         },
         {
           title: 'Lower Cost',
-          content:
+          description:
             'Term loans often have lower fees and interest rates compared to alternative financing options, making them cost-effective for long-term investments.',
         },
         {
           title: 'Asset Preservation',
-          content:
+          description:
             'Businesses can preserve their assets since term loans typically do not require ownership stakes or liens on specific assets.',
         },
         {
           title: 'Building Credit',
-          content:
+          description:
             'Timely repayment of term loans can help businesses build positive credit history, improving their future borrowing capabilities.',
         },
       ],
@@ -240,22 +240,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Financial Flexibility',
-          content:
+          description:
             'LOCs provide businesses with on-demand access to funds, giving them the flexibility to address short-term cash flow gaps or capitalize on opportunities as they arise.',
         },
         {
           title: 'Cost-Effective Financing',
-          content:
+          description:
             'Interest is only charged on the amount borrowed, making a line of credit a cost-effective financing option for managing intermittent expenses or covering unexpected costs.',
         },
         {
           title: 'Build Credit',
-          content:
+          description:
             'Timely repayment of a line of credit can help businesses establish and improve their credit profile, enhancing their ability to secure favorable terms for future financing needs.',
         },
         {
           title: 'Emergency Fund',
-          content:
+          description:
             'A line of credit can serve as a reliable emergency fund, providing businesses with a financial safety net to address unforeseen challenges or crises.',
         },
       ],
@@ -339,22 +339,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Access to Capital',
-          content:
+          description:
             'Bad credit lending provides opportunities for individuals and businesses with low credit scores to access much-needed capital for various purposes, including debt consolidation, business expansion, or emergency expenses.',
         },
         {
           title: 'Credit Rebuilding',
-          content:
+          description:
             'Timely repayment of bad credit loans can help borrowers rebuild their credit profiles over time, demonstrating responsible financial behavior and improving creditworthiness.',
         },
         {
           title: 'Fast Approval Process',
-          content:
+          description:
             'Specialized lenders often offer streamlined application processes and quicker approval times compared to traditional lenders, allowing borrowers to access funds when they need them most.',
         },
         {
           title: 'Tailored Solutions',
-          content:
+          description:
             'Bad credit lending options are designed to address the unique needs and challenges of borrowers with less-than-perfect credit histories, offering personalized solutions to help them achieve their financial goals.',
         },
       ],
@@ -438,22 +438,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Preservation of Capital',
-          content:
+          description:
             'Equipment financing allows businesses to preserve their capital for other operational expenses or investment opportunities, avoiding large upfront payments for equipment purchases.',
         },
         {
           title: 'Tax Advantages',
-          content:
+          description:
             'Businesses may benefit from tax advantages such as depreciation deductions or tax credits associated with equipment purchases or leases, reducing overall tax liability.',
         },
         {
           title: 'Flexible Financing Terms',
-          content:
+          description:
             "Equipment financing offers flexible terms and repayment schedules tailored to the business's cash flow and equipment usage, ensuring affordability and convenience.",
         },
         {
           title: 'Technology Upgrades',
-          content:
+          description:
             'Regular equipment upgrades can enhance operational efficiency, productivity, and competitiveness, positioning the business for long-term success and growth.',
         },
       ],
@@ -537,22 +537,22 @@ export const financialSolutions = [
       sectionContent: [
         {
           title: 'Increased Borrowing Capacity',
-          content:
+          description:
             'ABL allows businesses to unlock additional borrowing capacity by leveraging their assets, providing access to larger loan amounts than traditional financing options.',
         },
         {
           title: 'Flexible Financing',
-          content:
+          description:
             'With ABL, businesses can use a variety of assets, including accounts receivable, inventory, equipment, and real estate, as collateral, providing flexibility in structuring financing solutions tailored to their needs.',
         },
         {
           title: 'Working Capital Optimization',
-          content:
+          description:
             'By leveraging assets such as accounts receivable and inventory, businesses can optimize their working capital and improve cash flow management.',
         },
         {
           title: 'Growth Opportunities',
-          content:
+          description:
             'ABL provides businesses with the capital needed to fund growth initiatives, such as expanding operations, launching new product lines, or entering new markets, without depleting existing cash reserves.',
         },
       ],
