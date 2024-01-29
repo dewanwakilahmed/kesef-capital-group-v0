@@ -44,7 +44,11 @@ const CallToActionSection: FC = () => {
 
             <Button
               className='call-to-action-card-btn mx-auto'
-              btnType={item.btnType}
+              btnType={
+                item.btnType === 'primary' || item.btnType === 'secondary'
+                  ? item.btnType
+                  : 'primary'
+              }
               goTo={item.link}
             >
               {item.btnText}
