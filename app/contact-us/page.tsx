@@ -71,7 +71,7 @@ const ContactUsPage = () => {
             </div>
 
             <Button
-              className='contact-us-form-btn ml-auto mt-2'
+              className='contact-us-form-btn mx-auto mt-2'
               btnType='primary'
               goTo='/contact-us'
             >
