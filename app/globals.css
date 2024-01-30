@@ -4,8 +4,7 @@
 
 @layer components {
   .section {
-    @apply px-20
-    py-16
+    @apply py-16
     flex
     flex-col
     gap-10
@@ -50,7 +49,10 @@
     flex-col
     gap-5
     items-center
-    justify-center;
+    justify-center
+    2xl:max-w-screen-2xl
+    xl:max-w-screen-xl
+    lg:max-w-screen-lg;
   }
 
   .hero-headline {
@@ -68,11 +70,16 @@
   }
 
   .section-content {
-    @apply grid
+    @apply mx-auto
+    px-20
+    grid
     gap-10
     items-stretch
     justify-center
-    relative;
+    relative
+    2xl:max-w-screen-2xl
+    xl:max-w-screen-xl
+    lg:max-w-screen-lg;
   }
 
   .card {

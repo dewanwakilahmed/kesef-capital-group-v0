@@ -9,7 +9,7 @@ import Button from '@/components/ui/button/Button';
 const HeaderSection: FC = () => {
   return (
     <header className='header-section w-full fixed z-10 bg-neutral-950/25 backdrop-blur hover:backdrop-blur-md shadow-lg hover:shadow-xl'>
-      <div className='header-content px-20 py-5 flex items-center justify-between'>
+      <div className='header-content section-content py-5 flex items-center justify-between'>
         <div className='company-logo text-lg text-neutral-50 hover:text-primary font-bold transition'>
           <Link href='/'>POWERHOUSE FUNDING</Link>
         </div>
