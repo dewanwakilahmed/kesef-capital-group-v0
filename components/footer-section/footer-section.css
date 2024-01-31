@@ -1,0 +1,39 @@
+.footer-section {
+  @apply section-with-no-bg-img
+  section-with-bg-img
+  w-full;
+}
+
+.footer-bg-overlay {
+  @apply bg-img-overlay;
+}
+
+.footer-content {
+  @apply section-content
+  items-stretch 
+  justify-stretch
+  gap-5
+  py-7
+  text-neutral-50;
+}
+
+.company-info {
+  @apply flex 
+  items-center 
+  justify-between;
+}
+
+.company-info-item {
+  @apply flex 
+  items-center 
+  justify-center 
+  gap-3 
+  hover:text-primary 
+  transition;
+}
+
+.copyright {
+  @apply text-center 
+  text-sm 
+  text-neutral-300;
+}

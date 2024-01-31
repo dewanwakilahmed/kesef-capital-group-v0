@@ -7,7 +7,7 @@ import './globals.css';
 
 // Section Imports
 import HeaderSection from '@/components/HeaderSection';
-import FooterSection from '@/components/FooterSection';
+import FooterSection from '@/components/footer-section/FooterSection';
 
 const customFont = Montserrat({ subsets: ['latin'] });
 
