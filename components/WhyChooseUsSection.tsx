@@ -32,8 +32,7 @@ const benefits = [
 const WhyChooseUsSection: FC = () => {
   return (
     <section
-      className='why-choose-us-section section
-    section-with-bg-img'
+      className='why-choose-us-section section section-with-bg-img'
       style={{
         backgroundImage: `url('/images/why-choose-us-bg/why-choose-us-bg.webp')`,
         backgroundPosition: 'center',
@@ -60,6 +59,7 @@ const WhyChooseUsSection: FC = () => {
           </div>
         ))}
       </div>
+
       <Button
         className='why-choose-us-cta relative mt-5'
         btnType='primary'

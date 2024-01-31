@@ -1,5 +1,8 @@
 'use client';
 
+// CSS Import
+import './home-page.css';
+
 // Section Imports
 import PageHeroSection from '@/components/PageHeroSection';
 import OurFinancialSolutionsSection from '@/components/OurFinancialSolutionsSection';

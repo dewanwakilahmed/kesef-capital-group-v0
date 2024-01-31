@@ -18,20 +18,24 @@ const PageHeroSection: FC<PageHeroSectionProps> = ({
 }) => {
   return (
     <section
-      className={`${solutionTitle}-hero-section section section-with-bg-img h-screen`}
+      className={`${solutionTitle}-hero-section`}
       style={{
         backgroundImage: `url('/images/hero-bg/${solutionTitle}-hero-bg.webp')`,
         backgroundPosition: 'center',
       }}
     >
-      <div className='bg-img-overlay' />
+      <div className={`${solutionTitle}-hero-bg-overlay`} />
 
-      <div className='hero-content'>
-        <h1 className='hero-headline'>{headline}</h1>
+      <div className={`${solutionTitle}-hero-content`}>
+        <h1 className={`${solutionTitle}-hero-headline`}>{headline}</h1>
 
-        <p className='hero-subheadline -mt-2'>{subheadline}</p>
+        <p className={`${solutionTitle}-hero-subheadline`}>{subheadline}</p>
 
-        <Button className='hero-cta mt-2' btnType='primary' goTo='/apply-now'>
+        <Button
+          className={`${solutionTitle}-hero-cta`}
+          btnType='primary'
+          goTo='/apply-now'
+        >
           Apply Now
         </Button>
       </div>

@@ -4,12 +4,12 @@
 
 @layer components {
   .section {
-    @apply py-16
-    flex
+    @apply flex
     flex-col
-    gap-10
+    gap-2
     justify-center
-    items-center;
+    items-center
+    py-16;
   }
 
   .section-with-bg-img {
@@ -30,7 +30,8 @@
   .section-title {
     @apply text-center
     text-xl
-    font-light;
+    font-light
+    mb-8;
   }
 
   .section-title-with-bg-img {
@@ -42,44 +43,15 @@
     @apply text-gray-800;
   }
 
-  .hero-content {
-    @apply relative
-    h-full
-    flex
-    flex-col
-    gap-5
-    items-center
-    justify-center
-    2xl:max-w-screen-2xl
-    xl:max-w-screen-xl
-    lg:max-w-screen-lg;
-  }
-
-  .hero-headline {
-    @apply text-primary
-    text-center
-    text-4xl 
-    font-semibold;
-  }
-
-  .hero-subheadline {
-    @apply text-neutral-50
-    text-center 
-    text-xl 
-    font-extralight;
-  }
-
   .section-content {
     @apply mx-auto
-    px-20
     grid
-    gap-10
     items-stretch
     justify-center
     relative
-    2xl:max-w-screen-2xl
-    xl:max-w-screen-xl
-    lg:max-w-screen-lg;
+    px-20
+    2xl:gap-20
+    2xl:max-w-screen-2xl;
   }
 
   .card {
@@ -118,5 +90,29 @@
   .card-description-dark {
     @apply text-neutral-400
     text-center;
+  }
+
+  .hero-content {
+    @apply section-content
+    gap-0;
+  }
+
+  .hero-headline {
+    @apply text-primary
+    text-center
+    font-semibold
+    2xl:text-4xl;
+  }
+
+  .hero-subheadline {
+    @apply text-neutral-50
+    text-center 
+    font-extralight
+    mt-1.5
+    2xl:text-2xl;
+  }
+
+  .hero-cta {
+    @apply mt-6;
   }
 }

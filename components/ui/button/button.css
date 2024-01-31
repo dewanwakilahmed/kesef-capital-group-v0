@@ -2,7 +2,8 @@
   @apply py-2 
   px-4 
   rounded
-  transition;
+  transition
+  mx-auto;
 }
 
 .primary {

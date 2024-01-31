@@ -1,0 +1,29 @@
+.home-page {
+}
+
+/* HERO SECTION */
+.home-hero-section {
+  @apply section
+  section-with-bg-img
+  h-screen;
+}
+
+.home-hero-bg-overlay {
+  @apply bg-img-overlay;
+}
+
+.home-hero-content {
+  @apply hero-content;
+}
+
+.home-hero-headline {
+  @apply hero-headline;
+}
+
+.home-hero-subheadline {
+  @apply hero-subheadline;
+}
+
+.home-hero-cta {
+  @apply hero-cta;
+}
