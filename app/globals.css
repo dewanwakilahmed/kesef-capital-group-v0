@@ -56,9 +56,10 @@
     items-stretch
     justify-center
     relative
-    px-20
+    /* px-20 */
     2xl:gap-20
-    2xl:max-w-screen-2xl;
+    2xl:max-w-screen-2xl
+    xl:max-w-screen-xl;
   }
 
   .card {
@@ -122,4 +123,9 @@
   .hero-cta {
     @apply mt-6;
   }
+}
+
+body {
+  @apply bg-yellow-400
+  max-w-full;
 }
