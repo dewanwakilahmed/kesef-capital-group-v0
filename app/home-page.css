@@ -143,3 +143,49 @@
 .about-us-card-img {
   @apply mt-3;
 }
+
+/* TESTIMONIALS SECTION */
+.testimonials-section {
+  @apply section 
+  section-with-bg-img;
+}
+
+.testimonials-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.testimonials-content {
+  @apply section-content 
+  grid-cols-1
+  lg:grid-cols-3;
+}
+
+.testimonial-card {
+  @apply card
+  card-dark;
+}
+
+.testimonial-person-img {
+  @apply w-36 
+  h-auto 
+  rounded-lg 
+  mb-6;
+}
+
+.testimonial-person-name {
+  @apply text-lg 
+  text-neutral-50 
+  font-bold;
+}
+
+.testimonial-person-info {
+  @apply text-sm 
+  text-neutral-300 
+  font-medium mb-2;
+}
+
+.testimonial-person-feedback {
+  @apply card-description
+  card-description-dark;
+}

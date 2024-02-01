@@ -30,7 +30,7 @@ const testimonials = [
 const TestimonialsSection: FC = () => {
   return (
     <section
-      className='testimonials-section section section-with-bg-img'
+      className='testimonials-section'
       style={{
         backgroundImage: `url('/images/testimonials/testimonials-bg.webp')`,
         backgroundPosition: 'center',
@@ -38,33 +38,24 @@ const TestimonialsSection: FC = () => {
     >
       <div className='bg-img-overlay' />
 
-      <h2 className='testimonials-title section-title section-title-with-bg-img'>
-        Testimonials
-      </h2>
+      <h2 className='testimonials-title'>Testimonials</h2>
 
-      <div className='testimonials-content section-content grid-cols-3'>
+      <div className='testimonials-content'>
         {testimonials.map((testimonial) => (
-          <div
-            key={testimonial.name}
-            className='testimonial-card card card-dark'
-          >
+          <div key={testimonial.name} className='testimonial-card'>
             <Image
-              className='testimonial-person-image w-36 h-auto rounded-lg mb-6'
+              className='testimonial-person-img'
               src={testimonial.image}
               alt={testimonial.name}
               width={300}
               height={300}
             />
 
-            <h3 className='testimonial-person-name text-lg text-neutral-50 font-bold'>
-              {testimonial.name}
-            </h3>
+            <h3 className='testimonial-person-name'>{testimonial.name}</h3>
 
-            <h4 className='testimonial-person-position text-sm text-neutral-300 font-medium mb-2'>
-              {testimonial.position}
-            </h4>
+            <h4 className='testimonial-person-info'>{testimonial.position}</h4>
 
-            <p className='testimonial-person-feedback card-description card-description-dark'>
+            <p className='testimonial-person-feedback'>
               {testimonial.feedback}
             </p>
           </div>
