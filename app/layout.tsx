@@ -12,7 +12,7 @@ import FooterSection from '@/components/footer-section/FooterSection';
 const customFont = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Powerhouse Funding',
+  title: 'Powerhouse Funding - Empowering small businesses',
   description:
     'Empowering small businesses with short-term financial solutions',
 };
@@ -27,7 +27,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
       <body className={customFont.className}>
         {/* <HeaderSection /> */}
         <main className='page-content'>{children}</main>
-        <FooterSection />
+        {/* <FooterSection /> */}
       </body>
     </html>
   );

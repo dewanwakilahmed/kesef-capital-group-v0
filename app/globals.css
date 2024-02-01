@@ -141,7 +141,7 @@
     font-semibold
     text-base
     sm:text-lg
-    md:text-2xl
+    md:text-xl
     lg:text-2xl
     xl:text-3xl
     2xl:text-4xl;
@@ -152,17 +152,18 @@
     text-center 
     font-extralight
     text-sm
-    md:text-base
-    lg:text-lg
-    xl:text-xl
-    2xl:text-2xl
+    sm:text-base
+    md:text-lg
+    lg:text-xl
+    xl:text-2xl
+    2xl:text-3xl
     mt-1
     sm:mt-1.5;
   }
 
   .hero-cta {
     @apply mt-2.5
-    sm:mt-4;
+    sm:mt-5;
   }
 }
 

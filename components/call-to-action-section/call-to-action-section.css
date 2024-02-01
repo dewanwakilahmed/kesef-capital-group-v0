@@ -17,8 +17,8 @@
 .call-to-action-card {
   @apply card 
   card-light
-  items-center
-  justify-center
+  md:items-center
+  md:justify-center
   lg:items-start
   lg:justify-start;
 }
@@ -26,19 +26,19 @@
 .call-to-action-card-title {
   @apply card-title 
   card-title-light
-  text-center
+  md:text-center
   lg:text-start;
 }
 
 .call-to-action-card-description {
   @apply card-description 
   card-description-light
-  text-center
+  md:text-center
   lg:text-start;
 }
 
 .call-to-action-card-btn {
-  @apply mr-auto 
-  ml-0 
+  @apply lg:mr-auto 
+  lg:ml-0 
   mt-3;
 }
