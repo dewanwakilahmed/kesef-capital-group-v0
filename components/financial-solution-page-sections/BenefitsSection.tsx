@@ -17,24 +17,14 @@ const BenefitsSection: FC<BenefitsSectionProps> = ({
   sectionContent,
 }) => {
   return (
-    <section className='benefits-section section section-with-no-bg-img'>
-      <h2
-        className='benefits-title section-title
-  section-title-with-no-bg-img'
-      >
-        {sectionTitle}
-      </h2>
+    <section className='benefits-section'>
+      <h2 className='benefits-title'>{sectionTitle}</h2>
 
-      <div
-        className='benefits-content section-content
-  grid-cols-2'
-      >
+      <div className='benefits-content'>
         {sectionContent.map(({ title, description }) => (
-          <div className='benefits-card card card-light' key={title}>
-            <h3 className='benefits-card-title text-gray-800'>{title}</h3>
-            <p className='benefits-card-description card-description card-description-light mt-1'>
-              {description}
-            </p>
+          <div className='benefit-card' key={title}>
+            <h3 className='benefit-card-title'>{title}</h3>
+            <p className='benefit-card-description'>{description}</p>
           </div>
         ))}
       </div>

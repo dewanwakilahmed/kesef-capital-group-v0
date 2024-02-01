@@ -2,6 +2,9 @@
 
 import { usePathname } from 'next/navigation';
 
+// CSS Import
+import './financial-solution-page.css';
+
 // Content Import
 import { financialSolutions } from '@/content/financialSolutions';
 

@@ -20,8 +20,7 @@ const HowItWorksSection: FC<HowItWorksSectionProps> = ({
 }) => {
   return (
     <section
-      className='how-it-works-section section
-    section-with-bg-img'
+      className='how-it-works-section'
       style={{
         backgroundImage: `url(/images/how-it-works-bg/${solutionTitle}-how-it-works-bg.webp)`,
         backgroundPosition: 'center',
@@ -29,23 +28,13 @@ const HowItWorksSection: FC<HowItWorksSectionProps> = ({
     >
       <div className='bg-img-overlay' />
 
-      <h2
-        className='how-it-works-title section-title
-        section-title-with-bg-img'
-      >
-        {sectionTitle}
-      </h2>
+      <h2 className='how-it-works-title'>{sectionTitle}</h2>
 
-      <div
-        className='how-it-works-content section-content
-  grid-cols-2'
-      >
+      <div className='how-it-works-content'>
         {sectionContent.map(({ title, description }) => (
-          <div className='how-it-works-card card card-dark' key={title}>
-            <h3 className='how-it-works-card-title text-neutral-50'>{title}</h3>
-            <p className='how-it-works-card-description card-description card-description-dark mt-1'>
-              {description}
-            </p>
+          <div className='how-it-works-card' key={title}>
+            <h3 className='how-it-works-card-title'>{title}</h3>
+            <p className='how-it-works-card-description'>{description}</p>
           </div>
         ))}
       </div>

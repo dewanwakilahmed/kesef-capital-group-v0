@@ -12,16 +12,13 @@ const WhatIsSection: FC<WhatIsSectionProps> = ({
   sectionContent,
 }) => {
   return (
-    <section className='what-is-section section section-with-bg-no-img'>
-      <h2
-        className='what-is-title section-title
-  section-title-with-no-bg-img'
-      >
-        {sectionTitle}
-      </h2>
+    <section className='what-is-section'>
+      <h2 className='what-is-title'>{sectionTitle}</h2>
 
-      <div className='what-is-content what-is-card card card-light text-gray-800'>
-        {sectionContent}
+      <div className='what-is-content'>
+        <div className='what-is-card'>
+          <div className='what-is-card-description'> {sectionContent}</div>
+        </div>
       </div>
     </section>
   );
