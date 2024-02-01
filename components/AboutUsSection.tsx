@@ -22,21 +22,15 @@ const aboutUsItems = [
 
 const AboutUsSection: FC = () => {
   return (
-    <section className='about-us-section section section-with-no-bg-img'>
-      <h2 className='about-us-title section-title section-title-with-no-bg-img'>
-        About Us
-      </h2>
+    <section className='about-us-section'>
+      <h2 className='about-us-title'>About Us</h2>
 
-      <div className='about-us-content section-content grid-cols-2'>
+      <div className='about-us-content'>
         {aboutUsItems.map((item, index) => (
-          <div className='about-us-card card card-light' key={index}>
-            <h3 className='about-us-card-title text-lg text-gray-800 mb-3'>
-              {item.title}
-            </h3>
+          <div className='about-us-card' key={index}>
+            <h3 className='about-us-card-title'>{item.title}</h3>
 
-            <p className='about-us-card-description card-description card-description-light mb-3'>
-              {item.description}
-            </p>
+            <p className='about-us-card-description'>{item.description}</p>
 
             <Image
               src={item.img}

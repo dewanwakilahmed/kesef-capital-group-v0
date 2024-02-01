@@ -107,3 +107,39 @@
   @apply card-description
   card-description-dark;
 }
+
+/* ABOUT US SECTION */
+.about-us-section {
+  @apply section 
+  section-with-no-bg-img;
+}
+
+.about-us-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.about-us-content {
+  @apply section-content 
+  grid-cols-1
+  md:grid-cols-2;
+}
+
+.about-us-card {
+  @apply card
+  card-light;
+}
+
+.about-us-card-title {
+  @apply card-title 
+  card-title-light;
+}
+
+.about-us-card-description {
+  @apply card-description 
+  card-description-light;
+}
+
+.about-us-card-img {
+  @apply mt-3;
+}
