@@ -19,73 +19,63 @@ const financialSolutions = [
     description:
       'Unlock immediate capital based on your credit card sales, with flexible repayment.',
     link: '/merchant-cash-advance',
-    icon: <FaMoneyBillWave size={35} />,
+    icon: <FaMoneyBillWave className='financial-solution-icon' />,
   },
   {
     title: 'Term Loan',
     description:
       'Secure a lump sum for your business with fixed repayments over a specified term.',
     link: '/term-loan',
-    icon: <FaHandHoldingUsd size={35} />,
+    icon: <FaHandHoldingUsd className='financial-solution-icon' />,
   },
   {
     title: 'Line of Credit',
     description:
       'Flexible financing with access to funds up to a predetermined credit limit.',
     link: '/line-of-credit',
-    icon: <FaCreditCard size={35} />,
+    icon: <FaCreditCard className='financial-solution-icon' />,
   },
   {
     title: 'Asset Based Lending',
     description:
       'Leverage your business assets to secure a flexible and tailored financing solution.',
     link: '/asset-based-lending',
-    icon: <FaCoins size={35} />,
+    icon: <FaCoins className='financial-solution-icon' />,
   },
   {
     title: 'Equipment Financing',
     description:
       'Acquire the equipment your business needs with financing options customized for you.',
     link: '/equipment-financing',
-    icon: <FaTools size={35} />,
+    icon: <FaTools className='financial-solution-icon' />,
   },
   {
     title: 'Bad Credit Lending',
     description:
       'Overcome credit challenges and access the funding your business requires to thrive.',
     link: '/bad-credit-lending',
-    icon: <FaSadCry size={35} />,
+    icon: <FaSadCry className='financial-solution-icon' />,
   },
 ];
 
 const OurFinancialSolutionsSection: FC = () => {
   return (
-    <section className='our-financial-solutions-section section section-with-no-bg-img'>
-      <h2 className='our-financial-solutions-title section-title section-title-with-no-bg-img'>
-        Our Financial Solutions
-      </h2>
+    <section className='our-financial-solutions-section'>
+      <h2 className='our-financial-solutions-title'>Our Financial Solutions</h2>
 
-      <div className='our-financial-solutions-content section-content grid-cols-3'>
+      <div className='our-financial-solutions-content'>
         {financialSolutions.map((solution, index) => (
-          <div
-            key={index}
-            className='financial-solution-card card
-          card-light'
-          >
-            <div className='financial-solution-icon text-gray-800 mb-3'>
-              {solution.icon}
-            </div>
+          <div key={index} className='financial-solution-card'>
+            {solution.icon}
 
-            <h3 className='financial-solution-title text-lg text-gray-800'>
-              {solution.title}
-            </h3>
+            <h3 className='financial-solution-title'>{solution.title}</h3>
 
-            <p className='financial-solution-description card-description card-description-light'>
+            <p className='financial-solution-description'>
               {solution.description}
             </p>
 
             <Link
-              className='financial-solution-learn-more-link text-blue-700 hover:underline mt-1'
+              className='financial-solution-learn-more-link'
               href={solution.link}
             >
               Learn More

@@ -27,3 +27,46 @@
 .home-hero-cta {
   @apply hero-cta;
 }
+
+/* OUR FINANCIAL SOLUIONS SECTION */
+.our-financial-solutions-section {
+  @apply section
+  section-with-no-bg-img;
+}
+
+.our-financial-solutions-title {
+  @apply section-title 
+  section-title-with-no-bg-img;
+}
+
+.our-financial-solutions-content {
+  @apply section-content 
+  grid-cols-1;
+}
+
+.financial-solution-card {
+  @apply card
+  card-light;
+}
+
+.financial-solution-icon {
+  @apply text-gray-800 
+  text-3xl
+  mb-1;
+}
+
+.financial-solution-title {
+  @apply card-title
+  card-title-light;
+}
+
+.financial-solution-description {
+  @apply card-description 
+  card-description-light;
+}
+
+.financial-solution-learn-more-link {
+  @apply text-blue-700 
+  hover:underline 
+  mt-1;
+}

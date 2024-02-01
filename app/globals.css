@@ -13,10 +13,9 @@
   .section {
     @apply flex
     flex-col
-    gap-2
     justify-center
     items-center
-    py-16;
+    py-8;
   }
 
   .section-with-bg-img {
@@ -36,9 +35,9 @@
 
   .section-title {
     @apply text-center
-    text-xl
     font-light
-    mb-8;
+    text-sm
+    mb-6;
   }
 
   .section-title-with-bg-img {
@@ -56,16 +55,17 @@
     items-stretch
     justify-center
     relative
-    px-3;
+    gap-4
+    px-6;
   }
 
   .card {
-    @apply p-6
-    flex
+    @apply flex
     flex-col
     gap-1  
     rounded-md
     transition
+    p-4
     shadow-lg 
     hover:shadow-xl;
   }
@@ -81,6 +81,18 @@
     bg-neutral-900/70
     hover:bg-neutral-900/85
     backdrop-blur-sm;
+  }
+
+  .card-title {
+    @apply text-sm;
+  }
+
+  .card-title-light {
+    @apply text-gray-800;
+  }
+
+  .card-title-dark {
+    @apply text-neutral-50;
   }
 
   .card-description {
@@ -124,5 +136,6 @@
 }
 
 body {
-  @apply overflow-x-hidden;
+  @apply overflow-x-hidden
+  text-xs;
 }
