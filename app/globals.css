@@ -56,7 +56,7 @@
     justify-center
     relative
     gap-4
-    px-6;
+    px-4;
   }
 
   .card {
@@ -67,7 +67,8 @@
     transition
     p-4
     shadow-lg 
-    hover:shadow-xl;
+    hover:shadow-xl
+    text-sm;
   }
 
   .card-light {
@@ -118,24 +119,22 @@
     @apply text-primary
     text-center
     font-semibold
-    text-sm
-    leading-4;
+    text-base;
   }
 
   .hero-subheadline {
     @apply text-neutral-50
     text-center 
     font-extralight
-    text-xs
-    mt-1.5;
+    text-sm
+    mt-2.5;
   }
 
   .hero-cta {
-    @apply mt-2.5;
+    @apply mt-5;
   }
 }
 
 body {
-  @apply overflow-x-hidden
-  text-xs;
+  @apply overflow-x-hidden;
 }

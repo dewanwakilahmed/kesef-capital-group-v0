@@ -1,10 +1,10 @@
 .btn {
   @apply mx-auto
   transition
-  text-[10px]
-  py-1 
-  px-2 
-  rounded-sm;
+  text-sm
+  py-1.5 
+  px-3 
+  rounded-md;
 }
 
 .primary {
