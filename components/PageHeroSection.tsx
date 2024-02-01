@@ -24,7 +24,7 @@ const PageHeroSection: FC<PageHeroSectionProps> = ({
         backgroundPosition: 'center',
       }}
     >
-      <div className={`${solutionTitle}-hero-bg-overlay`} />
+      <div className='bg-img-overlay' />
 
       <div className={`${solutionTitle}-hero-content`}>
         <h1 className={`${solutionTitle}-hero-headline`}>{headline}</h1>

@@ -8,10 +8,6 @@
   h-screen;
 }
 
-.home-hero-bg-overlay {
-  @apply bg-img-overlay;
-}
-
 .home-hero-content {
   @apply hero-content;
 }
@@ -69,4 +65,40 @@
   @apply text-blue-700 
   hover:underline 
   mt-1;
+}
+
+/* WHY CHOOSE US SECTION */
+.why-choose-us-section {
+  @apply section 
+  section-with-bg-img;
+}
+
+.why-choose-us-title {
+  @apply section-title 
+  section-title-with-bg-img;
+}
+
+.why-choose-us-content {
+  @apply section-content 
+  grid-cols-1;
+}
+
+.benefit-card {
+  @apply card
+  card-dark;
+}
+
+.benefit-card-icon {
+  @apply text-neutral-50
+  text-3xl
+  mb-1;
+}
+
+.benefit-card-title {
+  @apply card-title card-title-dark;
+}
+
+.benefit-card-description {
+  @apply card-description
+  card-description-dark;
 }
