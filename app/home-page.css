@@ -38,7 +38,8 @@
 .our-financial-solutions-content {
   @apply section-content 
   grid-cols-1
-  sm:grid-cols-2;
+  sm:grid-cols-2
+  lg:grid-cols-3;
 }
 
 .financial-solution-card {
@@ -65,7 +66,9 @@
 .financial-solution-learn-more-link {
   @apply text-blue-700 
   hover:underline 
-  mt-1.5;
+  mt-1.5
+  text-sm
+  md:text-base;
 }
 
 /* WHY CHOOSE US SECTION */
@@ -81,7 +84,8 @@
 
 .why-choose-us-content {
   @apply section-content 
-  grid-cols-1;
+  grid-cols-1
+  lg:grid-cols-3;
 }
 
 .benefit-card {

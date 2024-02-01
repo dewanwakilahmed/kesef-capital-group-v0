@@ -15,7 +15,9 @@
     flex-col
     justify-center
     items-center
-    py-8;
+    py-8
+    md:py-10
+    xl:py-16;
   }
 
   .section-with-bg-img {
@@ -37,7 +39,11 @@
     @apply text-center
     font-light
     text-base
-    mb-6;
+    md:text-lg
+    xl:text-xl
+    mb-6
+    md:mb-8
+    xl:mb-10;
   }
 
   .section-title-with-bg-img {
@@ -56,7 +62,12 @@
     justify-center
     relative
     gap-6
-    px-6;
+    md:gap-8
+    xl:gap-10
+    px-6
+    md:px-8
+    xl:px-10
+    max-w-7xl;
   }
 
   .card {
@@ -66,6 +77,8 @@
     rounded-md
     transition
     p-5
+    md:p-6
+    xl:p-8
     shadow-lg 
     hover:shadow-xl;
   }
@@ -84,7 +97,8 @@
   }
 
   .card-title {
-    @apply text-base;
+    @apply text-base
+    md:text-lg;
   }
 
   .card-title-light {
@@ -92,12 +106,14 @@
   }
 
   .card-title-dark {
-    @apply text-neutral-50;
+    @apply text-neutral-50
+    text-center;
   }
 
   .card-description {
     @apply font-light
-    text-sm 
+    text-sm
+    md:text-base
     flex-grow;
   }
 
@@ -121,7 +137,7 @@
     font-semibold
     text-base
     sm:text-lg
-    md:text-xl
+    md:text-2xl
     lg:text-2xl
     xl:text-3xl
     2xl:text-4xl;
