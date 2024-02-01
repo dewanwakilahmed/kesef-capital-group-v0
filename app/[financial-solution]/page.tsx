@@ -12,7 +12,7 @@ import HowItWorksSection from '@/components/financial-solution-page-sections/How
 import BenefitsSection from '@/components/financial-solution-page-sections/BenefitsSection';
 import UseCasesSection from '@/components/financial-solution-page-sections/UseCasesSection';
 import ConsiderationsSection from '@/components/financial-solution-page-sections/ConsiderationsSections';
-import CallToActionSection from '@/components/CallToActionSection';
+import CallToActionSection from '@/components/call-to-action-section/CallToActionSection';
 
 const FinancialSolutionPage = () => {
   const pathname = usePathname();

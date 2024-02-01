@@ -9,7 +9,7 @@ import OurFinancialSolutionsSection from '@/components/OurFinancialSolutionsSect
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import AboutUsSection from '@/components/AboutUsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import CallToActionSection from '@/components/CallToActionSection';
+import CallToActionSection from '@/components/call-to-action-section/CallToActionSection';
 
 const HomePage = () => {
   return (

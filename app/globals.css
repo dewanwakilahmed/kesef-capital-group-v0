@@ -155,6 +155,7 @@
     md:text-base
     lg:text-lg
     xl:text-xl
+    2xl:text-2xl
     mt-1
     sm:mt-1.5;
   }
