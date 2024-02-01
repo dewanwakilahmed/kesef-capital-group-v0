@@ -2,9 +2,15 @@
   @apply mx-auto
   transition
   text-sm
-  py-1.5 
-  px-3 
-  rounded-md;
+  md:text-base
+  py-1 
+  px-3
+  md:py-1
+  md:px-3.5
+  lg:py-1.5
+  lg:px-5
+  rounded-sm
+  md:rounded-md;
 }
 
 .primary {

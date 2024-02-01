@@ -36,7 +36,7 @@
   .section-title {
     @apply text-center
     font-light
-    text-sm
+    text-base
     mb-6;
   }
 
@@ -55,8 +55,8 @@
     items-stretch
     justify-center
     relative
-    gap-4
-    px-4;
+    gap-6
+    px-6;
   }
 
   .card {
@@ -65,10 +65,9 @@
     gap-1  
     rounded-md
     transition
-    p-4
+    p-5
     shadow-lg 
-    hover:shadow-xl
-    text-sm;
+    hover:shadow-xl;
   }
 
   .card-light {
@@ -85,7 +84,7 @@
   }
 
   .card-title {
-    @apply text-sm;
+    @apply text-base;
   }
 
   .card-title-light {
@@ -97,7 +96,8 @@
   }
 
   .card-description {
-    @apply font-light 
+    @apply font-light
+    text-sm 
     flex-grow;
   }
 
@@ -119,7 +119,12 @@
     @apply text-primary
     text-center
     font-semibold
-    text-base;
+    text-base
+    sm:text-lg
+    md:text-xl
+    lg:text-2xl
+    xl:text-3xl
+    2xl:text-4xl;
   }
 
   .hero-subheadline {
@@ -127,11 +132,16 @@
     text-center 
     font-extralight
     text-sm
-    mt-2.5;
+    md:text-base
+    lg:text-lg
+    xl:text-xl
+    mt-1
+    sm:mt-1.5;
   }
 
   .hero-cta {
-    @apply mt-5;
+    @apply mt-2.5
+    sm:mt-4;
   }
 }
 

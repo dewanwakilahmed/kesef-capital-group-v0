@@ -37,7 +37,8 @@
 
 .our-financial-solutions-content {
   @apply section-content 
-  grid-cols-1;
+  grid-cols-1
+  sm:grid-cols-2;
 }
 
 .financial-solution-card {
@@ -47,8 +48,8 @@
 
 .financial-solution-icon {
   @apply text-gray-800 
-  text-3xl
-  mb-1;
+  text-4xl
+  mb-1.5;
 }
 
 .financial-solution-title {
@@ -64,7 +65,7 @@
 .financial-solution-learn-more-link {
   @apply text-blue-700 
   hover:underline 
-  mt-1;
+  mt-1.5;
 }
 
 /* WHY CHOOSE US SECTION */
