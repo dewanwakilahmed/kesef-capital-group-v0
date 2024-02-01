@@ -56,10 +56,7 @@
     items-stretch
     justify-center
     relative
-    /* px-20 */
-    2xl:gap-20
-    2xl:max-w-screen-2xl
-    xl:max-w-screen-xl;
+    px-3;
   }
 
   .card {
@@ -109,23 +106,23 @@
     @apply text-primary
     text-center
     font-semibold
-    2xl:text-4xl;
+    text-sm
+    leading-4;
   }
 
   .hero-subheadline {
     @apply text-neutral-50
     text-center 
     font-extralight
-    mt-1.5
-    2xl:text-2xl;
+    text-xs
+    mt-1.5;
   }
 
   .hero-cta {
-    @apply mt-6;
+    @apply mt-2.5;
   }
 }
 
 body {
-  @apply bg-yellow-400
-  max-w-full;
+  @apply overflow-x-hidden;
 }

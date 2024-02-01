@@ -25,7 +25,6 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
       <body className={customFont.className}>
-        <div className='test-div bg-pink-400 w-full h-36'>Hello</div>
         {/* <HeaderSection /> */}
         <main className='page-content'>{children}</main>
         <FooterSection />
