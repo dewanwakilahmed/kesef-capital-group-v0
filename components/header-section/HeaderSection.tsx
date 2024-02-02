@@ -3,7 +3,7 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
-import DropdownMenu from './ui/DropdownMenu';
+import DropdownMenu from '@/components/ui/DropdownMenu';
 import Button from '@/components/ui/button/Button';
 
 const HeaderSection: FC = () => {
