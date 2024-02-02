@@ -171,3 +171,23 @@
 body {
   @apply overflow-x-hidden;
 }
+
+/* Add this to your globals.css file */
+
+/* This will change the scrollbar for the whole page */
+body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #888; /* Color of the track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #999; /* Color of the scroll thumb */
+  border-radius: 3px; /* Roundness of the scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #666; /* Color of the scroll thumb on hover */
+}
