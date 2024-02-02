@@ -3,23 +3,29 @@
 import { FC } from 'react';
 import Link from 'next/link';
 
+// CSS Import
+import './header-section.css';
+
+// UI Components Import
 import DropdownMenu from '@/components/ui/DropdownMenu';
 import Button from '@/components/ui/button/Button';
 
 const HeaderSection: FC = () => {
   return (
-    <header className='header-section w-full fixed z-10 bg-neutral-950/25 backdrop-blur hover:backdrop-blur-md shadow-lg hover:shadow-xl'>
-      <div className='header-content section-content py-5 flex items-center justify-between'>
-        <div className='company-logo text-lg text-neutral-50 hover:text-primary font-bold transition'>
+    <header className='header-section'>
+      <div className='header-content'>
+        <div className='company-logo-header'>
           <Link href='/'>POWERHOUSE FUNDING</Link>
         </div>
 
         <nav className='navbar'>
-          <ul className='navbar-list flex gap-6 items-center justify-center text-neutral-50'>
+          <ul className='navbar-list'>
             <DropdownMenu />
-            <li className='navbar-item hover:text-primary px-4 py-2 transition cursor-pointer'>
+
+            <li className='navbar-item'>
               <Link href='/contact-us'>Contact Us</Link>
             </li>
+
             <Button
               className='navbar-item navbar-cta ml-6'
               btnType='primary'

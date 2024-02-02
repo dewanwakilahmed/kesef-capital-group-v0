@@ -25,7 +25,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang='en'>
       <body className={customFont.className}>
-        {/* <HeaderSection /> */}
+        <HeaderSection />
         <main className='page-content'>{children}</main>
         <FooterSection />
       </body>

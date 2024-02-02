@@ -8,30 +8,35 @@ const DropdownMenu: FC = () => {
 
   return (
     <li
-      className='navbar-item px-4 py-2 transition cursor-pointer relative hover:text-primary'
+      className='navbar-item'
       onMouseEnter={() => setIsOpen(true)}
       onMouseLeave={() => setIsOpen(false)}
       onClick={() => setIsOpen(false)}
     >
       Financial Solutions
       {isOpen && (
-        <ul className='dropdown-menu absolute bg-neutral-950/50 hover:backdrop-blur-md shadow-lg hover:shadow-xl transition left-0 top-10 text-neutral-50'>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+        <ul className='dropdown-menu'>
+          <li className='dropdown-item'>
             <Link href='/merchant-cash-advance'>Merchant Cash Advance</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+
+          <li className='dropdown-item'>
             <Link href='/term-loan'>Term Loan</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+
+          <li className='dropdown-item'>
             <Link href='/line-of-credit'>Line Of Credit</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+
+          <li className='dropdown-item'>
             <Link href='/asset-based-lending'>Asset Based Lending</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+
+          <li className='dropdown-item'>
             <Link href='/equipment-financing'>Equipment Financing</Link>
           </li>
-          <li className='dropdown-item px-4 py-2 hover:bg-neutral-950/50 transition whitespace-nowrap'>
+
+          <li className='dropdown-item'>
             <Link href='/bad-credit-lending'>Bad Credit Lending</Link>
           </li>
         </ul>
