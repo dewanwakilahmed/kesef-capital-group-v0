@@ -8,7 +8,7 @@ import './footer-section.css';
 
 // Icon Imports
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
-import { FaRegBuilding } from 'react-icons/fa';
+import { HiOutlineBuildingOffice } from 'react-icons/hi2';
 
 const Footer: FC = () => {
   return (
@@ -17,27 +17,36 @@ const Footer: FC = () => {
 
       <div className='footer-content'>
         <div className='company-info'>
-          <div className='company-logo'>
+          <div className='company-logo-footer'>
             <Link href='/'>POWERHOUSE FUNDING</Link>
           </div>
 
           <address className='company-info-item'>
-            <FaRegBuilding size={30} />
-            <span>123 Main St, Anytown, USA</span>
+            <HiOutlineBuildingOffice className='company-info-icon' />
+            <span className='company-info-text'>
+              5th floor, 80 Broad Street,
+            </span>
+            <span className='company-info-text'>New York - 10004, USA</span>
           </address>
           <div className='company-info-item'>
-            <AiOutlinePhone size={32.5} />
-            <a href='tel:1234567890'>(123) 456-7890</a>
+            <AiOutlinePhone className='company-info-icon' />
+            <a className='company-info-text' href='tel:1234567890'>
+              (123) 456-7890
+            </a>
           </div>
           <div className='company-info-item'>
-            <AiOutlineMail size={32.5} />
-            <a href='mailto:email@example.com'>support@powerhouse.com</a>
+            <AiOutlineMail className='company-info-icon' />
+            <a className='company-info-text' href='mailto:email@example.com'>
+              info@powerhousefunding.net
+            </a>
           </div>
         </div>
 
         <div className='copyright'>
-          &copy; {new Date().getFullYear()} Powerhouse Funding. All rights
-          reserved.
+          <span className='copyright-company'>
+            &copy; {new Date().getFullYear()} Powerhouse Funding.
+          </span>
+          <span className='copyright-message'>All rights reserved.</span>
         </div>
       </div>
     </footer>

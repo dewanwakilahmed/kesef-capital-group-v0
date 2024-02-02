@@ -6,7 +6,7 @@ import { Montserrat } from 'next/font/google';
 import './globals.css';
 
 // Section Imports
-import HeaderSection from '@/components/HeaderSection';
+import HeaderSection from '@/components/header-section/HeaderSection';
 import FooterSection from '@/components/footer-section/FooterSection';
 
 const customFont = Montserrat({ subsets: ['latin'] });
@@ -27,7 +27,7 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
       <body className={customFont.className}>
         {/* <HeaderSection /> */}
         <main className='page-content'>{children}</main>
-        {/* <FooterSection /> */}
+        <FooterSection />
       </body>
     </html>
   );
