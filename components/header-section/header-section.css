@@ -26,7 +26,21 @@
   transition;
 }
 
+.navbar-side-menu {
+  @apply lg:hidden;
+}
+
+.side-menu-open-btn {
+  @apply text-neutral-50
+  cursor-pointer
+  hover:text-primary
+  text-2xl
+  transition;
+}
+
 .navbar {
+  @apply hidden 
+  lg:flex;
 }
 
 .navbar-list {
@@ -64,4 +78,54 @@
   hover:bg-neutral-950/50 
   transition 
   whitespace-nowrap;
+}
+
+.side-menu {
+  @apply fixed 
+  right-0 
+  top-0 
+  bottom-0 
+  transform translate-x-full 
+  transition-transform 
+  w-full
+  flex
+  flex-col
+  items-center 
+  justify-center
+  p-8
+  h-screen
+  text-neutral-50
+  
+  bg-neutral-950/95 
+  backdrop-blur-md;
+
+  &.open {
+    @apply transform-none;
+  }
+}
+
+.side-menu-close-btn {
+  @apply absolute
+  top-5
+  right-5
+  text-2xl
+  cursor-pointer
+  hover:text-primary
+  transition;
+}
+
+.side-menu-navbar-list {
+  @apply grid
+  grid-cols-1
+  gap-3;
+}
+
+.side-menu-navbar-item {
+  @apply hover:text-primary transition;
+}
+
+.side-menu-cta {
+  @apply !ml-0
+  !mr-auto
+  hover:text-neutral-50;
 }
