@@ -106,9 +106,9 @@
 
 .side-menu-close-btn {
   @apply absolute
-  top-5
-  right-5
-  text-2xl
+  top-10
+  right-10
+  text-xl
   cursor-pointer
   hover:text-primary
   transition;
@@ -121,7 +121,8 @@
 }
 
 .side-menu-navbar-item {
-  @apply hover:text-primary transition;
+  @apply hover:text-primary 
+  transition;
 }
 
 .side-menu-cta {

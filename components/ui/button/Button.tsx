@@ -7,13 +7,20 @@ import './button.css';
 interface ButtonProps {
   className: string;
   btnType: 'primary' | 'secondary';
+  onClick?: () => void;
   goTo: string;
   children: ReactNode;
 }
 
-const Button: FC<ButtonProps> = ({ className, btnType, goTo, children }) => {
+const Button: FC<ButtonProps> = ({
+  className,
+  btnType,
+  onClick,
+  goTo,
+  children,
+}) => {
   return (
-    <button className={`${className} btn ${btnType}`}>
+    <button className={`${className} btn ${btnType}`} onClick={onClick}>
       <Link href={`${goTo}`}>{children}</Link>
     </button>
   );

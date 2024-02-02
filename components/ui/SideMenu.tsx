@@ -16,31 +16,31 @@ const SideMenu: FC<SideMenuProps> = ({ isOpen, onClose }) => {
       <FiX className='side-menu-close-btn' onClick={onClose} />
 
       <ul className='side-menu-navbar-list'>
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/merchant-cash-advance'>Merchant Cash Advance</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/term-loan'>Term Loan</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/line-of-credit'>Line Of Credit</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/asset-based-lending'>Asset Based Lending</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/equipment-financing'>Equipment Financing</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/bad-credit-lending'>Bad Credit Lending</Link>
         </li>
 
-        <li className='side-menu-navbar-item'>
+        <li className='side-menu-navbar-item' onClick={onClose}>
           <Link href='/contact-us'>Contact Us</Link>
         </li>
 
@@ -48,6 +48,7 @@ const SideMenu: FC<SideMenuProps> = ({ isOpen, onClose }) => {
           className='side-menu-navbar-item side-menu-cta'
           btnType='primary'
           goTo='/apply-now'
+          onClick={onClose}
         >
           Apply Now
         </Button>
