@@ -1,10 +1,16 @@
+'use client';
+
+// CSS Import
+import './contact-us-page.css';
+
+// UI Component Import
 import Button from '@/components/ui/button/Button';
 
 const ContactUsPage = () => {
   return (
     <div className='contact-us-page'>
       <section
-        className='contact-us-section section section-with-bg-img h-screen'
+        className='contact-us-section'
         style={{
           backgroundImage: `url('/images/hero-bg/contact-us-bg.webp')`,
           backgroundPosition: 'center',
@@ -12,71 +18,77 @@ const ContactUsPage = () => {
       >
         <div className='bg-img-overlay' />
 
-        <h2 className='contact-us-title section-title section-title-with-bg-img'>
-          Contact Us
-        </h2>
+        <h2 className='contact-us-title'>Contact Us</h2>
 
-        <div className='message-to-inquirer-container text-neutral-400 text-sm relative text-center -mt-6 -mb-6'>
-          <p className='message-to-inquirer'>
+        <div className='visitor-instruction-container'>
+          <p className='visitor-instruction'>
             Thank you for your interest in Powerhouse Funding!
           </p>
 
-          <p className='message-to-inquirer'>
+          <p className='visitor-instruction'>
             Please fill out the form below and a member of our team will be in
             touch with you shortly.
           </p>
         </div>
 
-        <div className='contact-us-content card card-dark text-neutral-50'>
-          <form className='contact-us-form flex flex-col gap-3' action=''>
-            <div className='flex items-center gap-3 justify-between'>
-              <label htmlFor='name'>Name</label>
+        <div className='contact-us-content'>
+          <form className='contact-us-form' action=''>
+            <div className='input-item-container'>
+              <label className='input-label' htmlFor='name'>
+                Name
+              </label>
               <input
+                className='input-item'
                 type='text'
                 id='name'
                 name='name'
                 required
-                className='shadow appearance-none border rounded py-2 px-3 text-gray-800 w-72 leading-tight focus:outline-none focus:shadow-outline'
               />
             </div>
 
-            <div className='flex items-center gap-3 justify-between'>
-              <label htmlFor='email'>Email</label>
+            <div className='input-item-container'>
+              <label className='input-label' htmlFor='email'>
+                Email
+              </label>
               <input
+                className='input-item'
                 type='email'
                 id='email'
                 name='email'
-                className='shadow appearance-none border rounded py-2 px-3 text-gray-800 w-72 leading-tight focus:outline-none focus:shadow-outline'
               />
             </div>
 
-            <div className='flex items-center gap-3 justify-between'>
-              <label htmlFor='phone'>Phone</label>
+            <div className='input-item-container'>
+              <label className='input-label' htmlFor='phone'>
+                Phone
+              </label>
               <input
+                className='input-item'
                 type='tel'
                 id='phone'
                 name='phone'
                 required
-                className='shadow appearance-none border rounded py-2 px-3 text-gray-800 w-72 leading-tight focus:outline-none focus:shadow-outline'
               />
             </div>
 
-            <div className='flex items-center gap-3 justify-between'>
-              <label htmlFor='message'>Message</label>
+            <div className='input-item-container'>
+              <label className='input-label' htmlFor='message'>
+                Message
+              </label>
               <textarea
+                className='input-item'
                 id='message'
                 name='message'
-                className='shadow appearance-none border rounded py-2 px-3 text-gray-800 w-72 leading-tight focus:outline-none focus:shadow-outline h-24'
               ></textarea>
             </div>
 
             <Button
-              className='contact-us-form-btn mx-auto mt-2'
+              className='contact-us-form-btn'
               btnType='primary'
               goTo='/contact-us'
             >
               <input
-                className='cursor-pointer'
+                className='contact-us-form-submit'
                 type='submit'
                 value='Send Message'
               />
