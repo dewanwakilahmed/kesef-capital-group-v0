@@ -24,11 +24,6 @@ const ContactUsPage = () => {
           <p className='visitor-instruction'>
             Thank you for your interest in Powerhouse Funding!
           </p>
-
-          <p className='visitor-instruction'>
-            Please fill out the form below and a member of our team will be in
-            touch with you shortly.
-          </p>
         </div>
 
         <div className='contact-us-content'>
