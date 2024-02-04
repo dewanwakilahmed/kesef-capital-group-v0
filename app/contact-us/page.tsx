@@ -37,6 +37,7 @@ const ContactUsPage = () => {
                 type='text'
                 id='name'
                 name='name'
+                placeholder='Name'
                 required
               />
             </div>
@@ -50,6 +51,7 @@ const ContactUsPage = () => {
                 type='email'
                 id='email'
                 name='email'
+                placeholder='Email'
               />
             </div>
 
@@ -62,6 +64,7 @@ const ContactUsPage = () => {
                 type='tel'
                 id='phone'
                 name='phone'
+                placeholder='Phone no'
                 required
               />
             </div>
@@ -74,6 +77,7 @@ const ContactUsPage = () => {
                 className='input-item'
                 id='message'
                 name='message'
+                placeholder='Message'
               ></textarea>
             </div>
 

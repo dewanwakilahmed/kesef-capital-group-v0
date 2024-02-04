@@ -53,7 +53,6 @@ const ApplyNowPage = () => {
                 id='businessName'
                 name='businessName'
                 placeholder='Business Name'
-                required
               />
             </div>
 
