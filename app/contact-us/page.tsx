@@ -27,7 +27,11 @@ const ContactUsPage = () => {
         </div>
 
         <div className='contact-us-content'>
-          <form className='contact-us-form' action=''>
+          <form
+            className='contact-us-form'
+            action='/api/contact-us'
+            method='POST'
+          >
             <div className='input-item-container'>
               <label className='input-label' htmlFor='name'>
                 Name
@@ -81,7 +85,7 @@ const ContactUsPage = () => {
               ></textarea>
             </div>
 
-            <Button
+            {/* <Button
               className='contact-us-form-btn'
               btnType='primary'
               goTo='/contact-us'
@@ -91,7 +95,13 @@ const ContactUsPage = () => {
                 type='submit'
                 value='Send Message'
               />
-            </Button>
+            </Button> */}
+
+            <input
+              className='contact-us-form-submit btn btn-primary'
+              type='submit'
+              value='Send Message'
+            />
           </form>
         </div>
       </section>
