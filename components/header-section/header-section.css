@@ -17,13 +17,9 @@
   justify-between;
 }
 
-.company-logo-header {
-  @apply company-logo
-  text-lg 
-  text-neutral-50 
-  hover:text-primary 
-  font-bold 
-  transition;
+.company-logo {
+  @apply w-32
+  h-auto;
 }
 
 .navbar-side-menu {

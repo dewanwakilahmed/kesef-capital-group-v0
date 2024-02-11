@@ -3,13 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  .company-logo {
-    @apply text-lg 
-    font-bold 
-    transition
-    hover:text-primary;
-  }
-
   .section {
     @apply flex
     flex-col

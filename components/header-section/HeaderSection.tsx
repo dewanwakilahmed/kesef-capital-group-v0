@@ -2,6 +2,7 @@
 
 import { FC, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // CSS Import
 import './header-section.css';
@@ -20,16 +21,15 @@ const HeaderSection: FC = () => {
   return (
     <header className='header-section'>
       <div className='header-content'>
-        <div className='company-logo-header'>
-          <Link href='/'>POWERHOUSE FUNDING</Link>
-        </div>
-
-        <nav className='navbar-side-menu'>
-          <FiMenu
-            className='side-menu-open-btn'
-            onClick={() => setIsMenuOpen(true)}
+        <Link href='/'>
+          <Image
+            className='company-logo'
+            src='/logo/kcg-logo-transparent.png'
+            alt='KCG Logo'
+            width={100}
+            height={100}
           />
-        </nav>
+        </Link>
 
         <nav className='navbar'>
           <ul className='navbar-list'>
@@ -47,6 +47,13 @@ const HeaderSection: FC = () => {
               Apply Now
             </Button>
           </ul>
+        </nav>
+
+        <nav className='navbar-side-menu'>
+          <FiMenu
+            className='side-menu-open-btn'
+            onClick={() => setIsMenuOpen(true)}
+          />
         </nav>
       </div>
 
