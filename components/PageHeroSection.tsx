@@ -20,7 +20,7 @@ const PageHeroSection: FC<PageHeroSectionProps> = ({
     <section
       className={`${solutionTitle}-hero-section`}
       style={{
-        backgroundImage: `url('/images/hero-bg/${solutionTitle}-hero-bg.webp')`,
+        backgroundImage: `url('/img/hero-bg/${solutionTitle}-hero-bg.webp')`,
         backgroundPosition: 'center',
       }}
     >

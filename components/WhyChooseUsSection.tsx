@@ -34,7 +34,7 @@ const WhyChooseUsSection: FC = () => {
     <section
       className='why-choose-us-section'
       style={{
-        backgroundImage: `url('/images/why-choose-us-bg/why-choose-us-bg.webp')`,
+        backgroundImage: `url('/img/why-choose-us-bg/why-choose-us-bg.webp')`,
         backgroundPosition: 'center',
       }}
     >

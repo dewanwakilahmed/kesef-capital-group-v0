@@ -32,7 +32,7 @@ const TestimonialsSection: FC = () => {
     <section
       className='testimonials-section'
       style={{
-        backgroundImage: `url('/images/testimonials/testimonials-bg.webp')`,
+        backgroundImage: `url('/img/testimonials/testimonials-bg.webp')`,
         backgroundPosition: 'center',
       }}
     >
