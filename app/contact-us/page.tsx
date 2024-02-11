@@ -2,6 +2,7 @@
 
 // CSS Import
 import './contact-us-page.css';
+import '@/components/ui/button/button.css';
 
 // UI Component Import
 import Button from '@/components/ui/button/Button';
@@ -12,7 +13,7 @@ const ContactUsPage = () => {
       <section
         className='contact-us-section'
         style={{
-          backgroundImage: `url('/images/hero-bg/contact-us-bg.webp')`,
+          backgroundImage: `url('/img/hero-bg/contact-us-bg.webp')`,
           backgroundPosition: 'center',
         }}
       >
@@ -98,7 +99,7 @@ const ContactUsPage = () => {
             </Button> */}
 
             <input
-              className='contact-us-form-submit btn btn-primary'
+              className='contact-us-form-submit btn btn-primary relative'
               type='submit'
               value='Send Message'
             />

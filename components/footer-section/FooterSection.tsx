@@ -36,7 +36,7 @@ const Footer: FC = () => {
           <div className='company-info-item'>
             <AiOutlinePhone className='company-info-icon' />
             <a className='company-info-text' href='tel:16464034553'>
-              (646) 403-4553
+              +1 (646) 403-4553
             </a>
           </div>
           <div className='company-info-item'>
@@ -52,7 +52,7 @@ const Footer: FC = () => {
 
         <div className='copyright'>
           <span className='copyright-company'>
-            &copy; {new Date().getFullYear()} Powerhouse Funding.
+            &copy; {new Date().getFullYear()} Kesef Capital Group.
           </span>
           <span className='copyright-message'>All rights reserved.</span>
         </div>

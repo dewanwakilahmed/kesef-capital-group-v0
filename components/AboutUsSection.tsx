@@ -8,14 +8,14 @@ const aboutUsItems = [
     title: 'Our Story',
     description:
       'Welcome to Powerhouse Funding, where financial empowerment meets entrepreneurial dreams. Established in 2024, our journey reflects resilience and innovation in providing tailored financial solutions for small businesses.',
-    img: '/images/about-us/our-story.webp',
+    img: '/img/about-us/our-story.webp',
     alt: 'our-story',
   },
   {
     title: 'Our Mission',
     description:
       'At Powerhouse Funding, our mission is to break down financial barriers, offering not just funding but a genuine partnership in the success of small businesses. We believe in empowering entrepreneurs to thrive and grow, contributing to the prosperity of communities.',
-    img: '/images/about-us/our-mission.webp',
+    img: '/img/about-us/our-mission.webp',
     alt: 'our-mission',
   },
 ];

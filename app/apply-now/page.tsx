@@ -12,7 +12,7 @@ const ApplyNowPage = () => {
       <section
         className='apply-now-section'
         style={{
-          backgroundImage: `url('/images/hero-bg/apply-now-bg.webp')`,
+          backgroundImage: `url('/img/hero-bg/apply-now-bg.webp')`,
           backgroundPosition: 'center',
         }}
       >

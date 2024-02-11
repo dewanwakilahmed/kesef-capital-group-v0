@@ -6,21 +6,21 @@ import Image from 'next/image';
 const testimonials = [
   {
     name: 'Emma Johnson',
-    image: '/images/testimonials/emma-johnson.webp',
+    image: '/img/testimonials/emma-johnson.webp',
     position: 'Founder, XYZ Enterprises',
     feedback:
       'Powerhouse Funding exceeded our expectations. Their personalized approach and quick approval process helped us secure the funding we needed to grow our business.',
   },
   {
     name: 'David Smith',
-    image: '/images/testimonials/david-smith.webp',
+    image: '/img/testimonials/david-smith.webp',
     position: 'Owner, ABC Solutions',
     feedback:
       'I highly recommend Powerhouse Funding for their professionalism and efficiency. They provided us with flexible financing options tailored to our business needs, allowing us to achieve our goals.',
   },
   {
     name: 'Sophia Brown',
-    image: '/images/testimonials/sophia-brown.webp',
+    image: '/img/testimonials/sophia-brown.webp',
     position: 'CEO, Brown & Co.',
     feedback:
       'Working with Powerhouse Funding was a fantastic experience. Their team guided us through every step of the process, and their commitment to our success was evident from the start.',
