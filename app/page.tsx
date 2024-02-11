@@ -17,8 +17,7 @@ const HomePage = () => {
       <PageHeroSection
         solutionTitle='home'
         headline='Funding Your Way: Tailored Solutions for Every Business Dream'
-        subheadline='Unlock your ambition. Scale your dreams. Partner with Powerhouse
-        Funding!'
+        subheadline='Unlock your ambition. Scale your dreams. Partner with Kesef Capital Group!'
       />
       <OurFinancialSolutionsSection />
       <WhyChooseUsSection />
