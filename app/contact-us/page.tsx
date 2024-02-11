@@ -28,11 +28,7 @@ const ContactUsPage = () => {
         </div>
 
         <div className='contact-us-content'>
-          <form
-            className='contact-us-form'
-            action='/api/contact-us'
-            method='POST'
-          >
+          <form className='contact-us-form' action='' method='POST'>
             <div className='input-item-container'>
               <label className='input-label' htmlFor='name'>
                 Name
