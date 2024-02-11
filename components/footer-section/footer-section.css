@@ -27,14 +27,6 @@
   xl:grid-cols-4;
 }
 
-.company-logo-footer {
-  @apply company-logo 
-  text-center
-  lg:col-span-full
-  xl:col-span-1
-  xl:text-start;
-}
-
 .company-info-item {
   @apply grid
   gap-1.5

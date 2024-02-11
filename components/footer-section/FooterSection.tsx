@@ -2,6 +2,7 @@
 
 import { FC } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // CSS Import
 import './footer-section.css';
@@ -17,27 +18,34 @@ const Footer: FC = () => {
 
       <div className='footer-content'>
         <div className='company-info'>
-          <div className='company-logo-footer'>
-            <Link href='/'>POWERHOUSE FUNDING</Link>
-          </div>
+          <Link href='/'>
+            <Image
+              className='company-logo'
+              src='/logo/kcg-logo-transparent.png'
+              alt='KCG Logo'
+              width={100}
+              height={100}
+            />
+          </Link>
 
           <address className='company-info-item'>
             <HiOutlineBuildingOffice className='company-info-icon' />
-            <span className='company-info-text'>
-              5th floor, 80 Broad Street,
-            </span>
-            <span className='company-info-text'>New York - 10004, USA</span>
+            <span className='company-info-text'>15th floor, 800 Third Ave</span>
+            <span className='company-info-text'>New York - 10022, USA</span>
           </address>
           <div className='company-info-item'>
             <AiOutlinePhone className='company-info-icon' />
-            <a className='company-info-text' href='tel:1234567890'>
-              (123) 456-7890
+            <a className='company-info-text' href='tel:16464034553'>
+              (646) 403-4553
             </a>
           </div>
           <div className='company-info-item'>
             <AiOutlineMail className='company-info-icon' />
-            <a className='company-info-text' href='mailto:email@example.com'>
-              info@powerhousefunding.net
+            <a
+              className='company-info-text'
+              href='mailto:kesefcapitalgroup@gmail.com'
+            >
+              kesefcapitalgroup@gmail.com
             </a>
           </div>
         </div>
