@@ -12,7 +12,7 @@ import FooterSection from '@/components/footer-section/FooterSection';
 const customFont = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Powerhouse Funding - Empowering small businesses',
+  title: 'Kesef Capital Group - Empowering small businesses',
   description:
     'Empowering small businesses with short-term financial solutions',
 };
