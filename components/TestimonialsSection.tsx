@@ -7,23 +7,23 @@ const testimonials = [
   {
     name: 'Emma Johnson',
     image: '/img/testimonials/emma-johnson.webp',
-    position: 'Founder, XYZ Enterprises',
+    position: 'Founder, Johnson Enterprises',
     feedback:
-      'Powerhouse Funding exceeded our expectations. Their personalized approach and quick approval process helped us secure the funding we needed to grow our business.',
+      'Kesef Capital Group exceeded our expectations. Their personalized approach and quick approval process helped us secure the funding we needed to grow our business.',
   },
   {
     name: 'David Smith',
     image: '/img/testimonials/david-smith.webp',
     position: 'Owner, ABC Solutions',
     feedback:
-      'I highly recommend Powerhouse Funding for their professionalism and efficiency. They provided us with flexible financing options tailored to our business needs, allowing us to achieve our goals.',
+      'I highly recommend Kesef Capital Group for their professionalism and efficiency. They provided us with flexible financing options tailored to our business needs, allowing us to achieve our goals.',
   },
   {
     name: 'Sophia Brown',
     image: '/img/testimonials/sophia-brown.webp',
     position: 'CEO, Brown & Co.',
     feedback:
-      'Working with Powerhouse Funding was a fantastic experience. Their team guided us through every step of the process, and their commitment to our success was evident from the start.',
+      'Working with Kesef Capital Group was a fantastic experience. Their team guided us through every step of the process, and their commitment to our success was evident from the start.',
   },
 ];
 
