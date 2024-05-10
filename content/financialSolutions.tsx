@@ -5,7 +5,7 @@ export const financialSolutions = [
       title: 'merchant-cash-advance',
       headline: 'Accelerate Your Business Growth with Merchant Cash Advance',
       subheadline:
-        'Fuel Your Ambition, Drive Success, Partner with Powerhouse Funding for Flexible Financing Solutions!',
+        'Fuel Your Ambition, Drive Success, Partner with Kesef Capital Group for Flexible Financing Solutions!',
     },
     whatIsSection: {
       sectionTitle: 'What is Merchant Cash Advance',
