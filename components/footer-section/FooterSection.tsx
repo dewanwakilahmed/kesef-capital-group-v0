@@ -45,7 +45,7 @@ const Footer: FC = () => {
               className='company-info-text'
               href='mailto:kesefcapitalgroup@gmail.com'
             >
-              kesefcapitalgroup@gmail.com
+              info@kesefcapitalgroup.com
             </a>
           </div>
         </div>
