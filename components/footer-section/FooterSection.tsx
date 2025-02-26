@@ -52,7 +52,6 @@ const Footer: FC = () => {
 
         <div className="quick-links">
           <Link href="/privacy-policy">Privacy Policy</Link>
-          <Link href="/apply-now">Apply Now</Link>
           <Link href="/contact-us">Contact Us</Link>
         </div>
 
