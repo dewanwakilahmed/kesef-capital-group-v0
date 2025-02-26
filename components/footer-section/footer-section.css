@@ -52,6 +52,21 @@
   2xl:text-5xl;
 }
 
+.quick-links {
+  @apply flex
+  flex-col
+  md:flex-row
+  items-center
+  justify-items-center
+  gap-6
+  mx-auto;
+}
+
+.quick-links a {
+  @apply text-neutral-50
+  hover:text-primary;
+}
+
 .copyright {
   @apply text-center 
   text-xs

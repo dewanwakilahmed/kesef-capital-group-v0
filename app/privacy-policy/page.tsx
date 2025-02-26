@@ -108,8 +108,10 @@ const PrivacyPolicyPage = () => {
         <section>
           <h2>6. Data Sharing</h2>
           <p>
-            We will never sell your personal information, including your phone
-            number, to third parties.
+            No mobile information will be shared with third parties/affiliates
+            for marketing/promotional purposes. All the above categories exclude
+            text messaging originator opt-in data and consent; this information
+            will not be shared with any third parties.
           </p>
         </section>
 

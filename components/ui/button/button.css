@@ -10,7 +10,8 @@
   lg:py-1.5
   lg:px-5
   rounded-sm
-  md:rounded-md;
+  md:rounded-md
+  active:scale-95;
 }
 
 .primary {
